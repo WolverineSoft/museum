@@ -1,0 +1,23 @@
+*{
+    font-family: system-ui;
+}
+
+gametitle{
+    font-size: 30px;
+    display: block;
+}
+
+sectionheader{
+    font-size: 20px;
+    display: block;
+}
+
+.gameHero{
+    width: 100%;
+    max-width: 500px;
+}
+
+.contentdiv{
+    margin:auto;
+    max-width: 600px;
+}
