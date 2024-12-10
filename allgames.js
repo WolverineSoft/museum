@@ -2,7 +2,7 @@ const allgames =
 {
     "WBomb": {
         title: "WBomb",
-        img: "wbomb/thumbnail.jpg",
+        img: "WBomb/thumbnail.jpg",
         year: 2002,
         "desc": "A Bomberman Clone"
     },
