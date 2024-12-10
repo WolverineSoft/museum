@@ -1,5 +1,11 @@
 const allgames = 
 {
+    "tube": {
+        title: "Tube Fighter XII: Hussain Awakens (March 2007)",
+        img: "tube/thumbnail.jpg",
+        year: 2007,
+        "desc": "Fight escaped lab monkeys"
+    },
     "WBomb": {
         title: "WBomb",
         img: "WBomb/thumbnail.jpg",
@@ -7,7 +13,7 @@ const allgames =
         "desc": "A Bomberman Clone"
     },
     "zenimaze": {
-        title: "zenimaze",
+        title: "ZeniMaze",
         img: "zenimaze/thumbnail.jpg",
         year: 2006,
         "desc": "Explore a maze and collect pickups. Made with ZeniLib."
