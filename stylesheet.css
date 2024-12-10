@@ -21,3 +21,31 @@ sectionheader{
     margin:auto;
     max-width: 600px;
 }
+
+.homegrid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap:10px;
+}
+
+.card{
+    box-shadow:2px 2px 5px #CCC;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+cardtitle{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.thumb{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+}
