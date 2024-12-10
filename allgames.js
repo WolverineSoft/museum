@@ -12,11 +12,17 @@ const allgames =
         year: 2007,
         "desc": "Fight escaped lab monkeys"
     },
-    "48_Fight!": {
-        title: "48_Fight!",
+    "48 Fight!": {
+        title: "48 Fight!",
         img: "48_Fight!/thumbnail.jpg",
         year: 2007,
         "desc": "Rock Paper Scissors but with Soldiers"
+    },
+    "Air Hare": {
+        title: "Air Hare",
+        img: "Air Hare/thumbnail.jpg",
+        year: 2004,
+        "desc": "Hare on the moon jumps over moon creatures."
     },
     "WBomb": {
         title: "WBomb",
