@@ -28,6 +28,12 @@ sectionheader{
     gap:10px;
 }
 
+@media only screen and (max-width: 550px) {
+    .homegrid{
+        grid-template-columns: 1fr;
+    }
+}
+
 .card{
     box-shadow:2px 2px 5px #CCC;
     padding: 20px;
@@ -50,4 +56,33 @@ cardtitle{
     width: 100%;
     max-width: 200px;
     max-height: 200px;
+}
+
+/*
+Dark mode
+*/
+@media (prefers-color-scheme: dark) {
+    .header{
+        background-color: rgb(8, 56, 92);
+        color: #E0E0E0
+    }
+    body{
+        background-color: #323232;
+    }
+    .card{
+        background-color: #444;
+        box-shadow:2px 2px 5px #222;
+    }
+    .header, body, .card{
+        color: #E0E0E0
+    }
+    .barheader{
+        background-color:#464a4c
+    }
+    a{
+        color:rgb(83, 158, 250)
+    }
+    a:hover{
+        color:rgb(0, 115, 255) 
+    }
 }
