@@ -9,49 +9,30 @@
   </head>
   <body>
     <h1>WolverineSoft Museum</h1>
-    <div class="homegrid">
-
-      <div class="card">
-        <a href="WBomb/">
-          <cardtitle>WBomb</cardtitle>
-          <img src="WBomb/thumbnail.jpg" class="thumb">
-        </a>
-        <p>
-          Year: 2002
-        </p>
-        <p>
-          A bomberman clone
-        </p>
-      </div>
-
-      <div class="card">
-        <a href="dummygame/">
-          <cardtitle>Dummy Game</cardtitle>
-          <img src="thumb.png" class="thumb">
-        </a>
-        <p>
-          Year: 2024
-        </p>
-        <p>
-          Optional description
-        </p>
-      </div>
-
-      <div class="card">
-        <a href="dummygame/">
-          <cardtitle>Dummy Game 2</cardtitle>
-          <img src="thumb.png" class="thumb">
-        </a>
-        <p>
-          Year: 2024
-        </p>
-        <p>
-          Optional description 2. The daring sequel!
-        </p>
-      </div>
-
-      
-
+    <div class="homegrid" id="grid">
     </div>
   </body>
+  <script src="allgames.js"></script>
+  <script>
+    const container = document.getElementById("grid");
+    const allhtml = [];
+    for(const [url,data] of Object.entries(allgames)){
+      const cardhtml = 
+      `<div class="card">
+        <a href="${url}">
+          <cardtitle>${data.title}</cardtitle>
+          <img src="${data.img}" class="thumb">
+        </a>
+        <p>
+          Year: ${data.year}
+        </p>
+        <p>
+        ${data.desc ? data.desc : ""}
+        </p>
+      </div>
+      `
+      allhtml.push(cardhtml)
+    }
+    container.innerHTML = allhtml.join('')
+  </script>
 </html>
