@@ -10,7 +10,7 @@
   <body>
     <h1>WolverineSoft Museum</h1>
     <p>
-      This is an archive of all of the games created by WolverineSoft members over its <AGE></AGE> lifespan. 
+      This is an archive of all of the games created by WolverineSoft members over its <age></age>-year lifespan. 
     </p>
     <div class="homegrid" id="grid">
     </div>
@@ -37,5 +37,8 @@
       allhtml.push(cardhtml)
     }
     container.innerHTML = allhtml.join('')
+  </script>
+  <script>
+    document.getElementsByTagName("age")[0].innerHTML =`${new Date(Date.now()).getFullYear() - 1999}`
   </script>
 </html>
