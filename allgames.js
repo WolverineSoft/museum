@@ -1,5 +1,11 @@
 const allgames = 
 {
+    "48_Fight!": {
+        title: "48_Fight!",
+        img: "48_Fight!/thumbnail.jpg",
+        year: 2007,
+        "desc": "Rock Paper Scissors but with Soldiers"
+    },
     "WBomb": {
         title: "WBomb",
         img: "WBomb/thumbnail.jpg",
