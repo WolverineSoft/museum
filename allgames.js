@@ -108,10 +108,4 @@ const allgames =
         year: "2023-2024",
         desc: "The entire Roots series! You aren't ready for the lore."
     },
-    "dummygame": {
-        title: "Dummy Game",
-        img: "dummygame/thumb.jpg",
-        year: 1998,
-        desc: "optional description delete this if you don't have a description"
-    },
 }
