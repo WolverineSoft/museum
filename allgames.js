@@ -30,6 +30,12 @@ const allgames =
         year: 2007,
         desc: "Take on the role of a courageous space-fighter as you blast through the evil Orgo empire in an epic struggle for freedom."
     },
+    "moonwars": {
+        title: "Moon Wars",
+        img: "moonwars/thumbnail.jpg",
+        year: 2004,
+        desc: "Muliplayer online game"
+    },
     "mousetrap": {
         title: "Mouse Trap",
         img: "mousetrap/thumbnail.jpg",
