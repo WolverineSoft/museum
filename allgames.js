@@ -30,6 +30,18 @@ const allgames =
         year: 2004,
         "desc": "Hare on the moon jumps over moon creatures."
     },
+    "Arjeebie": {
+        title: "Arjeebie",
+        img: "Arjeebie/thumbnail.jpg",
+        year: 2005,
+        "desc": "Tetris, but RGB colored blocks."
+    },
+    "Mega Battle Blobs": {
+        title: "Mega Battle Blobs",
+        img: "Mega Battle Blobs/thumbnail.jpg",
+        year: 2009,
+        "desc": "Katamari Damacy meets Smash Bros."
+    },
     "WBomb": {
         title: "WBomb",
         img: "WBomb/thumbnail.jpg",
@@ -51,7 +63,7 @@ const allgames =
     "dummygame": {
         title: "Dummy Game",
         img: "dummygame/thumb.jpg",
-        year: 2077,
+        year: 1998,
         desc: "optional description delete this if you don't have a description"
     },
 }

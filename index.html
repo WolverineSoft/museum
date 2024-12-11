@@ -12,31 +12,62 @@
     <p>
       This is an archive of all of the games created by WolverineSoft members over its <age></age>-year lifespan. 
     </p>
+    <p>Sort by:
+      <select onchange="selchanged(event)" id="sortsel">
+        <option default>Year (newest first)</option>
+        <option>Year (oldest first)</option>
+        <option>Alphabetical (A-Z)</option>
+        <option>Alphabetical (Z-A)</option>
+      </select>
+    </p>
     <div class="homegrid" id="grid">
     </div>
   </body>
   <script src="allgames.js"></script>
   <script>
     const container = document.getElementById("grid");
-    const allhtml = [];
-    for(const [url,data] of Object.entries(allgames)){
-      const cardhtml = 
-      `<div class="card">
-        <a href="${url}">
-          <cardtitle>${data.title}</cardtitle>
-          <img src="${data.img}" class="thumb">
-        </a>
-        <p>
-          Year: ${data.year}
-        </p>
-        <p>
-        ${data.desc ? data.desc : ""}
-        </p>
-      </div>
-      `
-      allhtml.push(cardhtml)
+
+    function sortgames(func){
+        const ordered = Object.entries(JSON.parse(JSON.stringify(allgames))).sort(func)
+      return ordered
     }
-    container.innerHTML = allhtml.join('')
+
+    const sortfuncs = [
+    ([key1, data1],[key2,data2]) => {return parseInt(data2.year) - parseInt(data1.year)}, // year 
+    ([key1, data1],[key2,data2]) => {return parseInt(data1.year) - parseInt(data2.year)}, // year (reverse) 
+
+      ([key1, data1],[key2,data2]) => {return data1.title.localeCompare(data2.title)}, // alphabetical 
+      ([key1, data1],[key2,data2]) => {return data2.title.localeCompare(data1.title)} // alphabetical (reverse)
+    ]
+
+    function populate(allgames){
+      const allhtml = [];
+      for(const [url,data] of allgames){
+        const cardhtml = 
+        `<div class="card">
+          <a href="${url}">
+            <cardtitle>${data.title}</cardtitle>
+            <img src="${data.img}" class="thumb">
+          </a>
+          <p>
+            Year: ${data.year}
+          </p>
+          <p>
+          ${data.desc ? data.desc : ""}
+          </p>
+        </div>
+        `
+        allhtml.push(cardhtml)
+      }
+      container.innerHTML = allhtml.join('')
+    }
+
+    populate(sortgames(sortfuncs[document.getElementById("sortsel").selectedIndex]))
+
+    function selchanged(e){
+      const idx = e.srcElement.selectedIndex
+      populate(sortgames(sortfuncs[idx]))
+    }
   </script>
   <script>
     document.getElementsByTagName("age")[0].innerHTML =`${new Date(Date.now()).getFullYear() - 1999}`
