@@ -18,6 +18,12 @@ const allgames =
         year: 2004,
         "desc": "Hare on the moon jumps over moon creatures."
     },
+    "Arjeebie": {
+        title: "Arjeebie",
+        img: "Arjeebie/thumbnail.jpg",
+        year: 2005,
+        "desc": "Tetris, but RGB colored blocks."
+    },
     "WBomb": {
         title: "WBomb",
         img: "WBomb/thumbnail.jpg",
