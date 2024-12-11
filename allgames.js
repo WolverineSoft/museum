@@ -18,6 +18,12 @@ const allgames =
         year: 2003,
         desc: "A 3D action-adventure game where you play as a little mouse"
     },
+    "mrt": {
+        title: "Mr. T's Freedom Fight",
+        img: "mrt/thumbnail.jpg",
+        year: 2004,
+        desc: "A 3D action-adventure game where you play as a little mouse"
+    },
     "szd": {
         title: "Super Zen Dragon",
         img: "szd/thumbnail.jpg",
