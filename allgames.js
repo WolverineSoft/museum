@@ -12,6 +12,12 @@ const allgames =
         year: 2003,
         desc: "A 3D Role-playing game"
     },
+    "heartattack": {
+        title: "Heart Attack",
+        img: "heartattack/index_files/h4small.png",
+        year: 2003,
+        desc: "A goofy action arcade game"
+    },
     "mousetrap": {
         title: "Mouse Trap",
         img: "mousetrap/thumbnail.jpg",
