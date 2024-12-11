@@ -12,6 +12,12 @@ const allgames =
         year: 2003,
         desc: "A 3D Role-playing game"
     },
+    "mousetrap": {
+        title: "Mouse Trap",
+        img: "mousetrap/thumbnail.jpg",
+        year: 2003,
+        desc: "A 3D action-adventure game where you play as a little mouse"
+    },
     "szd": {
         title: "Super Zen Dragon",
         img: "szd/thumbnail.jpg",
