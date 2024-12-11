@@ -1,7 +1,13 @@
 const allgames = 
 {
+    "timebomb": {
+        title: "Time Bomb",
+        img: "timebomb/thumbnail.jpg",
+        year: 2004,
+        "desc": "A minesweeper-like game"
+    },
     "tube": {
-        title: "Tube Fighter XII: Hussain Awakens (March 2007)",
+        title: "Tube Fighter XII: Hussain Awakens",
         img: "tube/thumbnail.jpg",
         year: 2007,
         "desc": "Fight escaped lab monkeys"
@@ -45,7 +51,7 @@ const allgames =
     "dummygame": {
         title: "Dummy Game",
         img: "dummygame/thumb.jpg",
-        year: 2077,
+        year: 1998,
         desc: "optional description delete this if you don't have a description"
     },
 }
