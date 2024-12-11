@@ -22,7 +22,7 @@ const allgames =
         title: "Mr. T's Freedom Fight",
         img: "mrt/thumbnail.jpg",
         year: 2004,
-        desc: "A 3D action-adventure game where you play as a little mouse"
+        desc: "A Wolfenstein-esque 3D shooter where you complete missions according to a story."
     },
     "szd": {
         title: "Super Zen Dragon",
