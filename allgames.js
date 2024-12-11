@@ -12,6 +12,12 @@ const allgames =
         year: 2003,
         desc: "A 3D Role-playing game"
     },
+    "kraken": {
+        title: "Escape of the Giant Squid",
+        img: "kraken/thumbnail.jpg",
+        year: 2007,
+        desc: "Help a giant squid flee its scientist captors."
+    },
     "heartattack": {
         title: "Heart Attack",
         img: "heartattack/index_files/ha4small.png",
