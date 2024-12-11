@@ -66,33 +66,33 @@ const allgames =
         year: 2007,
         desc: "Fight escaped lab monkeys"
     },
-    "48 Fight!": {
+    "48fight": {
         title: "48 Fight!",
-        img: "48_Fight!/thumbnail.jpg",
+        img: "48fight/thumbnail.jpg",
         year: 2007,
         desc: "Rock Paper Scissors but with Soldiers"
     },
-    "Air Hare": {
+    "airhare": {
         title: "Air Hare",
-        img: "Air Hare/thumbnail.jpg",
+        img: "airhare/thumbnail.jpg",
         year: 2004,
         desc: "Hare on the moon jumps over moon creatures."
     },
-    "Arjeebie": {
+    "arjeebie": {
         title: "Arjeebie",
-        img: "Arjeebie/thumbnail.jpg",
+        img: "arjeebie/thumbnail.jpg",
         year: 2005,
         desc: "Tetris, but RGB colored blocks."
     },
-    "Mega Battle Blobs": {
+    "megabattleblobs": {
         title: "Mega Battle Blobs",
-        img: "Mega Battle Blobs/thumbnail.jpg",
+        img: "megabattleblobs/thumbnail.jpg",
         year: 2009,
         desc: "Katamari Damacy meets Smash Bros."
     },
-    "WBomb": {
+    "wbomb": {
         title: "WBomb",
-        img: "WBomb/thumbnail.jpg",
+        img: "wbomb/thumbnail.jpg",
         year: 2002,
         desc: "A Bomberman Clone"
     },
