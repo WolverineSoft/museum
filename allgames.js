@@ -14,9 +14,15 @@ const allgames =
     },
     "heartattack": {
         title: "Heart Attack",
-        img: "heartattack/index_files/h4small.png",
-        year: 2003,
+        img: "heartattack/index_files/ha4small.png",
+        year: 2004,
         desc: "A goofy action arcade game"
+    },
+    "eagle_a46": {
+        title: "Heart Attack",
+        img: "eagle_a46/thumbnail.jpg",
+        year: 2008,
+        desc: "Help Stephen Colbert defeat the bear terrorists"
     },
     "mousetrap": {
         title: "Mouse Trap",
