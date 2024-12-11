@@ -1,5 +1,11 @@
 const allgames = 
 {
+    "szd": {
+        title: "Super Zen Dragon",
+        img: "szd/thumbnail.jpg",
+        year: 2009,
+        "desc": "Combine the yin and yangs."
+    },
     "timebomb": {
         title: "Time Bomb",
         img: "timebomb/thumbnail.jpg",
