@@ -1,5 +1,11 @@
 const allgames = 
 {
+    "stranded": {
+        title: "Stranded!",
+        img: "stranded/thumbnail.jpg",
+        year: 2007,
+        "desc": "A tile based survival game made by \"SpartaSoft\""
+    },
     "szd": {
         title: "Super Zen Dragon",
         img: "szd/thumbnail.jpg",
