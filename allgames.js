@@ -90,9 +90,9 @@ const allgames =
         year: 2009,
         desc: "Katamari Damacy meets Smash Bros."
     },
-    "wbomb": {
+    "WBomb": {
         title: "WBomb",
-        img: "wbomb/thumbnail.jpg",
+        img: "WBomb/thumbnail.jpg",
         year: 2002,
         desc: "A Bomberman Clone"
     },
