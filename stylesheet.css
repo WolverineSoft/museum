@@ -87,3 +87,12 @@ Dark mode
         color:rgb(0, 115, 255) 
     }
 }
+
+pre{
+    overflow: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: monospace;
+    border: 1px solid black;
+    padding: 3px;
+}

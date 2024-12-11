@@ -4,49 +4,55 @@ const allgames =
         title: "Stranded!",
         img: "stranded/thumbnail.jpg",
         year: 2007,
-        "desc": "A tile based survival game made by \"SpartaSoft\""
+        desc: "A tile based survival game made by \"SpartaSoft\""
+    },
+    "nanocrisis": {
+        title: "Nanocrisis",
+        img: "nanocrisis/thumbnail.jpg",
+        year: 2003,
+        desc: "A 3D Role-playing game"
     },
     "szd": {
         title: "Super Zen Dragon",
         img: "szd/thumbnail.jpg",
         year: 2009,
-        "desc": "Combine the yin and yangs."
+        desc: "Combine the yin and yangs."
     },
     "timebomb": {
         title: "Time Bomb",
         img: "timebomb/thumbnail.jpg",
         year: 2004,
-        "desc": "A minesweeper-like game"
+        desc: "A minesweeper-like game"
     },
     "tube": {
         title: "Tube Fighter XII: Hussain Awakens",
         img: "tube/thumbnail.jpg",
         year: 2007,
-        "desc": "Fight escaped lab monkeys"
+        desc: "Fight escaped lab monkeys"
     },
     "48 Fight!": {
         title: "48 Fight!",
         img: "48_Fight!/thumbnail.jpg",
         year: 2007,
-        "desc": "Rock Paper Scissors but with Soldiers"
+        desc: "Rock Paper Scissors but with Soldiers"
     },
     "Air Hare": {
         title: "Air Hare",
         img: "Air Hare/thumbnail.jpg",
         year: 2004,
-        "desc": "Hare on the moon jumps over moon creatures."
+        desc: "Hare on the moon jumps over moon creatures."
     },
     "Arjeebie": {
         title: "Arjeebie",
         img: "Arjeebie/thumbnail.jpg",
         year: 2005,
-        "desc": "Tetris, but RGB colored blocks."
+        desc: "Tetris, but RGB colored blocks."
     },
     "Mega Battle Blobs": {
         title: "Mega Battle Blobs",
         img: "Mega Battle Blobs/thumbnail.jpg",
         year: 2009,
-        "desc": "Katamari Damacy meets Smash Bros."
+        desc: "Katamari Damacy meets Smash Bros."
     },
     "WBomb": {
         title: "WBomb",
