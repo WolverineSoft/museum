@@ -1,10 +1,28 @@
 const allgames = 
 {
-    "48_Fight!": {
-        title: "48_Fight!",
+    "timebomb": {
+        title: "Time Bomb",
+        img: "timebomb/thumbnail.jpg",
+        year: 2004,
+        "desc": "A minesweeper-like game"
+    },
+    "tube": {
+        title: "Tube Fighter XII: Hussain Awakens",
+        img: "tube/thumbnail.jpg",
+        year: 2007,
+        "desc": "Fight escaped lab monkeys"
+    },
+    "48 Fight!": {
+        title: "48 Fight!",
         img: "48_Fight!/thumbnail.jpg",
         year: 2007,
         "desc": "Rock Paper Scissors but with Soldiers"
+    },
+    "Air Hare": {
+        title: "Air Hare",
+        img: "Air Hare/thumbnail.jpg",
+        year: 2004,
+        "desc": "Hare on the moon jumps over moon creatures."
     },
     "WBomb": {
         title: "WBomb",
@@ -13,7 +31,7 @@ const allgames =
         desc: "A Bomberman Clone"
     },
     "zenimaze": {
-        title: "zenimaze",
+        title: "ZeniMaze",
         img: "zenimaze/thumbnail.jpg",
         year: 2006,
         desc: "Explore a maze and collect pickups. Made with ZeniLib."
