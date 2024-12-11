@@ -13,7 +13,7 @@
       This is an archive of all of the games created by WolverineSoft members over its <age></age>-year lifespan. 
     </p>
     <p>Sort by:
-      <select onchange="selchanged(event)">
+      <select onchange="selchanged(event)" id="sortsel">
         <option default>Year (newest first)</option>
         <option>Year (oldest first)</option>
         <option>Alphabetical (A-Z)</option>
@@ -62,7 +62,7 @@
       container.innerHTML = allhtml.join('')
     }
 
-    populate(sortgames(sortfuncs[0]))
+    populate(sortgames(sortfuncs[document.getElementById("sortsel").selectedIndex]))
 
     function selchanged(e){
       const idx = e.srcElement.selectedIndex
