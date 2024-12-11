@@ -19,10 +19,16 @@ const allgames =
         desc: "A goofy action arcade game"
     },
     "eagle_a46": {
-        title: "Heart Attack",
+        title: "Eagle A-46",
         img: "eagle_a46/thumbnail.jpg",
         year: 2008,
         desc: "Help Stephen Colbert defeat the bear terrorists"
+    },
+    "doubleshot": {
+        title: "Double Shot!",
+        img: "doubleshot/thumbnail.jpg",
+        year: 2007,
+        desc: "Take on the role of a courageous space-fighter as you blast through the evil Orgo empire in an epic struggle for freedom."
     },
     "mousetrap": {
         title: "Mouse Trap",
