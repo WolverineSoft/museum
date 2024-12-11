@@ -30,6 +30,12 @@ const allgames =
         year: 2005,
         "desc": "Tetris, but RGB colored blocks."
     },
+    "Mega Battle Blobs": {
+        title: "Mega Battle Blobs",
+        img: "Mega Battle Blobs/thumbnail.jpg",
+        year: 2009,
+        "desc": "Katamari Damacy meets Smash Bros."
+    },
     "WBomb": {
         title: "WBomb",
         img: "WBomb/thumbnail.jpg",
