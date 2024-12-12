@@ -144,6 +144,12 @@ const allgames =
         year: 2005,
         desc: "Tetris, but RGB colored blocks."
     },
+    "exsphere": {
+        title: "ExSphere",
+        img: "exsphere/thumbnail.jpg",
+        year: 2005,
+        desc: "A breakout-style game with more movement options"
+    },
     "megabattleblobs": {
         title: "Mega Battle Blobs",
         img: "megabattleblobs/thumbnail.jpg",
