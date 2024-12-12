@@ -54,6 +54,12 @@ const allgames =
         year: 2004,
         desc: "A Dr. Mario type game featuring online multiplayer."
     },
+    "dreamcatch": {
+        title: "Dreamcatch",
+        img: "dreamcatch/thumbnail.jpg",
+        year: 2005,
+        desc: "A puzzle game where you collect the glowing yellow thing. Honestly not sure how to describe it."
+    },
     "heartattack": {
         title: "Heart Attack",
         img: "heartattack/index_files/ha4small.png",
