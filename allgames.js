@@ -150,6 +150,12 @@ const allgames =
         year: 2005,
         desc: "A breakout-style game with more movement options"
     },
+    "luciddreams": {
+        title: "Lucid Dreams",
+        img: "luciddreams/thumbnail.jpg",
+        year: 2005,
+        desc: "Avoid the sleeping pills thrown by the sheep who want you to sleep forever."
+    },
     "onslaught": {
         title: "Onslaught",
         img: "onslaught/thumbnail.jpg",
