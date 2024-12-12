@@ -49,10 +49,16 @@ const allgames =
         desc: "Robots vs bugs!"
     },
     "drfeelgood": {
-        title: "Dr. FEel Good",
+        title: "Dr. Feel Good",
         img: "drfeelgood/thumbnail.jpg",
         year: 2004,
         desc: "A Dr. Mario type game featuring online multiplayer."
+    },
+    "lightsout": {
+        title: "Lights Out",
+        img: "lightsout/thumbnail.jpg",
+        year: 2009,
+        desc: "A grid-based puzzle game"
     },
     "dreamcatch": {
         title: "Dreamcatch",
