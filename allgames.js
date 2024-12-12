@@ -18,6 +18,12 @@ const allgames =
         year: 2007,
         desc: "Help a giant squid flee its scientist captors."
     },
+    "eaglecomehome": {
+        title: "Eagle Come Home",
+        img: "eaglecomehome/thumbnail.jpg",
+        year: 2007,
+        desc: "Fly an eagle in this endless runner game."
+    },
     "heartattack": {
         title: "Heart Attack",
         img: "heartattack/index_files/ha4small.png",
