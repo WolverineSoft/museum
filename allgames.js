@@ -30,6 +30,12 @@ const allgames =
         year: 2009,
         desc: "A lawn care simulation game"
     },
+    "flagwars": {
+        title: "Flag Wars",
+        img: "flagwars/thumbnail.jpg",
+        year: 2007,
+        desc: "A networked multiplayer capture-the-flag game"
+    },
     "heartattack": {
         title: "Heart Attack",
         img: "heartattack/index_files/ha4small.png",

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Flag Wars (2007)</title>
+    <link rel="stylesheet" href="../stylesheet.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A networked multiplayer capture-the-flag game">
+  </head>
+  <body>
+    <div class="contentdiv">
+      <gametitle>Flag Wars (2007)</gametitle>
+      <img class="gameHero" src="thumbnail.jpg">
+      <p>
+        <sectionheader>Authors</sectionheader>
+        Mitchell Keith Bloch, Keenan Patterson, Wes Weaver, Jason LeZotte
+      </p>
+      <p>
+        <sectionheader>Description</sectionheader>
+        <pre>====================================
+=== Flag Wars: Capture the Flags ===
+====================================
+==== Extreme =======================
+================= to the Max =======
+====================================
+
+  by
+
+    Mitchell Keith Bloch (bazald)
+
+    Keenan Patterson (keenanwp)
+
+    Wes Weaver (wesweav)
+
+    Jason LeZotte (jlezotte)
+
+============ Goals ==============
+
+The main goal is to capture as many flags as you can.  You win the game by having the most amount of points when the time runs out or by capturing all of your opponents flags. 
+
+============== Instructions ==============
+
+You start the game with a flag in your hand that you swing into other flags to convert them to your side.  The flags start at level 1 loyalty which increases with time to level 10, which can be determined by observing the height of the flag on the pole.  Flags with higher loyalty can defeat flags with lower loyalty more easily.  Collisions between flags will damage both flags' loyalty but the higher loyalty flag will lose less loyalty compared to the lower one.  The flag that is held by the avatar has an increased attack strength in that you can defeat flags more easily than an unheld flag could.  If your flag's loyalty becomes too low you can drop it to pick up another flag that is under your control with higher loyalty.  Avoid colliding with enemies to keep your avatar's speed up.
+        </pre> 
+        <pre>============ Features ==============
+
+Networking:
+- Four players can connect to each other and play a game with not much lag.
+- works very well with many flags on the map.
+
+Terrain:
+- Variable height terrain is implemented with a number of different textures.
+- Some terrain textures are animated.
+- On some maps jumping is required to progress to other areas of the map.
+
+Controls:
+- Controls for both the X-Box 360 controllers and the keyboard are implemented.
+- Players can move an avatar model, swing a flag, jump, and drop the flag.
+
+AI:
+- Flag AI is implemented.  The flags run toward their allies when their loyalty is low, do nothing when their loyalty is medium, and go after enemies when their loyalty is high.
+- The flags also attack automatically when an enemy flag gets close.
+- The swing motion of the flag is reversed upon collisions.
+
+Animation:
+- We have animated, textured models and flags that display game information in a way that requires little use of the HUD.
+
+Sound:
+- Positional sounds are made whenever collisions between flags take place.
+- Music is now in the game.
+
+Menus:
+- A deep but simple menuing system is in place.
+- It is possible to start a new game after one has ended with very little effort.
+
+Misc:
+- Maps can easily be read in from file.
+- Automated smooth camera motion based on avatar movement is implemented.
+- Collision detection is very accurate.
+- Dynamic lighting is working.
+- Collision of the avatar with disloyal flags or enemy avatars slows the player down to add an element of gameplay.          
+        </pre>
+      </p>
+      <p>
+        <sectionheader>Downloads</sectionheader>
+        <ul>
+          <li>
+            <a href="https://github.com/WolverineSoft/museum/releases/latest/download/FILENAME">Windows Version</a>
+          </li>
+        </ul>
+      </p>
+      <p>
+        <sectionheader>Compatibility notes.</sectionheader>
+        Confirmed working on Windows 10. Launches backgrounded, so you might need to click it in your task bar to be able to see the game. 
+      </p>
+  </div>
+  </body>
+</html>
