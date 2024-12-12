@@ -36,6 +36,12 @@ const allgames =
         year: 2007,
         desc: "A networked multiplayer capture-the-flag game"
     },
+    "doubloons": {
+        title: "Doubloons!",
+        img: "doubloons/thumbnail.jpg",
+        year: 2006,
+        desc: "Direct your pirates to raid the enemy ship!"
+    },
     "heartattack": {
         title: "Heart Attack",
         img: "heartattack/index_files/ha4small.png",
