@@ -150,6 +150,12 @@ const allgames =
         year: 2005,
         desc: "A breakout-style game with more movement options"
     },
+    "onslaught": {
+        title: "Onslaught",
+        img: "onslaught/thumbnail.jpg",
+        year: 2005,
+        desc: "A puzzle game where you must defeat the cubes."
+    },
     "megabattleblobs": {
         title: "Mega Battle Blobs",
         img: "megabattleblobs/thumbnail.jpg",
