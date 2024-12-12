@@ -24,6 +24,12 @@ const allgames =
         year: 2007,
         desc: "Fly an eagle in this endless runner game."
     },
+    "lawnmaintenance": {
+        title: "Lawn Maintenance",
+        img: "lawnmaintenance/thumbnail.jpg",
+        year: 2009,
+        desc: "A lawn care simulation game"
+    },
     "heartattack": {
         title: "Heart Attack",
         img: "heartattack/index_files/ha4small.png",
