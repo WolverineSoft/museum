@@ -48,6 +48,12 @@ const allgames =
         year: 2007,
         desc: "Robots vs bugs!"
     },
+    "drfeelgood": {
+        title: "Dr. FEel Good",
+        img: "drfeelgood/thumbnail.jpg",
+        year: 2004,
+        desc: "A Dr. Mario type game featuring online multiplayer."
+    },
     "heartattack": {
         title: "Heart Attack",
         img: "heartattack/index_files/ha4small.png",
