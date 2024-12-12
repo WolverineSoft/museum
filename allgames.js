@@ -42,6 +42,12 @@ const allgames =
         year: 2006,
         desc: "Direct your pirates to raid the enemy ship!"
     },
+    "debugger": {
+        title: "Debugger",
+        img: "debugger/thumbnail.jpg",
+        year: 2007,
+        desc: "Robots vs bugs!"
+    },
     "heartattack": {
         title: "Heart Attack",
         img: "heartattack/index_files/ha4small.png",
