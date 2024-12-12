@@ -54,6 +54,12 @@ const allgames =
         year: 2004,
         desc: "A Dr. Mario type game featuring online multiplayer."
     },
+    "granicus": {
+        title: "Granicus",
+        img: "granicus/thumbnail.jpg",
+        year: 2007,
+        desc: "A two-player space battle game"
+    },
     "lightsout": {
         title: "Lights Out",
         img: "lightsout/thumbnail.jpg",
