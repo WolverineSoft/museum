@@ -150,6 +150,12 @@ const allgames =
         year: 2005,
         desc: "A breakout-style game with more movement options"
     },
+    "freedomship": {
+        title: "Freedomship",
+        img: "freedomship/thumbnail.jpg",
+        year: 2004,
+        desc: "An asteroid-dodging game. How long can you survive?"
+    },
     "luciddreams": {
         title: "Lucid Dreams",
         img: "luciddreams/thumbnail.jpg",
