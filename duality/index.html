@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Duality (2009?)</title>
+    <link rel="stylesheet" href="../stylesheet.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A 2D puzzle-platformer">
+  </head>
+  <body>
+    <div class="contentdiv">
+      <gametitle>Duality (2009?)</gametitle>
+      <div class="gameHero" src="thumbnail.jpg" id="container"></div>
+      <p>
+        <sectionheader>Authors</sectionheader>
+        Ryan Meier (Programming), Douglas Strait (Art), Curt Lawrence (Level design, sound)
+      </p>
+      <p>
+        <sectionheader>Description</sectionheader>
+        There is no date or other information associated with this game. If you know who made this, please reach out!
+      </p>
+      <p>
+        <sectionheader>Downloads</sectionheader>
+        <ul>
+          <li>
+            <a href="Duality.swf">SWF File (Flash)</a>
+          </li>
+        </ul>
+      </p>
+      <p>
+        <sectionheader>Compatibility notes.</sectionheader>
+        Flash game. Runs in the browser via Ruffle.
+      </p>
+     
+  </div>
+  </body>
+  <script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        const container = document.getElementById("container");
+        container.appendChild(player);
+        player.ruffle().load("Duality.swf");
+    });
+  </script>
+  <script src="../ruffle/ruffle.js"></script>
+</html>

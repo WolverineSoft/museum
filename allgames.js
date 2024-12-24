@@ -156,6 +156,12 @@ const allgames =
         year: 2009,
         desc: "Asteroids with emojis!"
     },
+    "duality": {
+        title: "Duality",
+        img: "Duality/thumbnail.jpg",
+        year: 2009,
+        desc: "A 2D puzzle-platformer"
+    },
     "freedomship": {
         title: "Freedomship",
         img: "freedomship/thumbnail.jpg",
