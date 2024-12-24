@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Faceteroids (2009)</title>
+    <link rel="stylesheet" href="../stylesheet.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Asteroids, but with emojis">
+  </head>
+  <body>
+    <div class="contentdiv">
+      <gametitle>Faceteroids (2009)</gametitle>
+      <div class="gameHero" src="thumbnail.jpg" id="container"></div>
+      <p>
+        <sectionheader>Authors</sectionheader>
+        Jason Robert Eaton
+      </p>
+      <p>
+        <sectionheader>Description</sectionheader>
+        <pre>After extracting the folder, you have to set up the project.  Get to the project tab and find 
+the New Project... option.  Browse to this folder, then click the Create Project button.
+
+Then right click the Faceteroids.fla file, and click Make Default Document.
+
+Then you click the Test Project button, and it should create the Faceteroids.swf and run.
+
+
+For a complete reference to all objects in flash, go to http://livedocs.adobe.com/flash/9.0/ActionScriptLangRefV3/
+I used this site to learn nearly everything about specific flash objects, and what it has to offer.  
+
+
+If you have any trouble with the project, just email me at eatonj@umich.edu and I can help you work it out.
+        </pre>
+      </p>
+      <p>
+        <sectionheader>Downloads</sectionheader>
+        <ul>
+          <li>
+            <a href="https://github.com/WolverineSoft/museum/releases/download/dl1/Faceteroids.zip">Source Code (Flash)</a>
+          </li>
+        </ul>
+      </p>
+      <p>
+        <sectionheader>Compatibility notes.</sectionheader>
+        Runs in the browser via Ruffle. Source code confirmed working in Adobe Animate 2024.
+      </p>
+     
+  </div>
+  </body>
+  <script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        const container = document.getElementById("container");
+        container.appendChild(player);
+        player.ruffle().load("Faceteroids.swf");
+    });
+  </script>
+  <script src="../ruffle/ruffle.js"></script>
+</html>

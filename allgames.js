@@ -150,6 +150,12 @@ const allgames =
         year: 2005,
         desc: "A breakout-style game with more movement options"
     },
+    "faceteroids": {
+        title: "Faceteroids",
+        img: "faceteroids/thumbnail.jpg",
+        year: 2009,
+        desc: "Asteroids with emojis!"
+    },
     "freedomship": {
         title: "Freedomship",
         img: "freedomship/thumbnail.jpg",
