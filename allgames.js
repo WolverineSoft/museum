@@ -156,6 +156,12 @@ const allgames =
         year: 2009,
         desc: "Asteroids with emojis!"
     },
+    "cw": {
+        title: "Crisis Wolverine: Insurrection Green",
+        img: "cw/thumbnail.jpg",
+        year: 2003,
+        desc: "The Spartans have invaded U-M!"
+    },
     "duality": {
         title: "Duality",
         img: "Duality/thumbnail.jpg",
