@@ -162,6 +162,12 @@ const allgames =
         year: 2003,
         desc: "The Spartans have invaded U-M!"
     },
+    "cw2": {
+        title: "Crisis Wolverine 2: Shadows of the Past",
+        img: "cw2/thumbnail.jpg",
+        year: 2004,
+        desc: "Discover the truth about Johnny Foreshadow"
+    },
     "duality": {
         title: "Duality",
         img: "Duality/thumbnail.jpg",
