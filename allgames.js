@@ -162,6 +162,12 @@ const allgames =
         year: 2009,
         desc: "A 2D puzzle-platformer"
     },
+    "michiganbeirut": {
+        title: "Michigan Beirut",
+        img: "michiganbeirut/game.PNG",
+        year: 2005,
+        desc: "Beer Pong on GameBoy Advance! (and also in your browser)"
+    },
     "freedomship": {
         title: "Freedomship",
         img: "freedomship/thumbnail.jpg",

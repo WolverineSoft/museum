@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Michigan Beirut (2005)</title>
+    <link rel="stylesheet" href="../stylesheet.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Beer Pong on GameBoy Advance! (and also in your browser)">
+  </head>
+  <style>
+    .gameHero{
+      aspect-ratio: 3/2;
+    }
+  </style>
+  <body>
+    <div class="contentdiv">
+      <gametitle>Michigan Beirut (2005)</gametitle>
+      <div class="gameHero" id="game"></div>
+      <p>
+        <sectionheader>Authors</sectionheader>
+        Unknown
+      </p>
+      <p>
+        <sectionheader>Description</sectionheader>
+        <pre>Michigan Beirut
+
+          This game was written in C using HAM, a gba library. The graphics were created in inkscape and paint, and downsampled for the gba. 
+          
+          The game is meant to be simple and addictive.
+        </pre>
+        <pre>The game is a simulation of the popular drinking game beirut (beerpong). You must find the best combination of angle and power in order to land your ball into your opponent’s cups. After landing a ball in a cup, that cup will disappear, if you lose all your cups, you lose the game. If all of your opponent’s cups disappear, you win. Each player alternates throwing the ball.
+
+The angle pointer and power meter will move on their own, use the A button to lock each, one at a time. 
+        </pre>
+        <pre>7:30 - contest begins
+9:45 - empty table graphic is complete, colors look ok on gba
+10:32 - got sprites (just the cups right now) to display on the gba, need to setup positions
+12:08 - enemy cup sprites are in position
+        need to setup player character sprite, player cups
+12:30 - got all cups lined up
+	need to show player's sprite (as tiled bg?)
+1:30 - got player sprite as a tiled bg
+2:30 - eat pizza
+3:00 - return to central campus, sleep, etc
+
+12:30 - returned to contest, begun putting aim arrow on screen
+13:00 - after much strange behavior, i finally got 
+13:54 - initial aim mechanism works, working on text output
+14:31 - got text output engine working
+15:00 - improved cup graphics, really need to start implementing basic gameplay
+        next step: make power meter
+16:17 - powermeter + bar are made, need aiming mechanism
+16:53 - powermeter implemented, need to code a utility to generate tan() lookup tables for degrees
+17:14 - created tan lookup table by writing a seperate program, 
+	now need to test actual aiming mechanism for accuracy
+17:57 - wildly innaccurate, debug time.
+18:16 - found lots of bugs in getpower(), power is accurate now, 
+	but the shots are still landing wrong
+21:20 - discovered that offsets were necessary, bugs fixed, need to do animation for flying ball
+22:11 - working on animation still, weird issues with rounding player cup positions
+22:49 - actual travel animation is ok, want to add some kind of zoom effect.
+23:36 - added zoom effect, working on collision detection to find when shots go in
+1:50 - collision detection is not really working. been debugging forever
+2:39 - the collision bounding boxes i'm using don't make any sense, but they seem to make the game playable enough
+3:43 - I believe I've narrowed the collision issue to some kind of coordinate strangeness, 
+	i have some constant correction factors in place that allieviate the issues
+4:06 - the player's part of the gameplay is basically done, next I need to code the ai
+5:11 - we have an AI, need to make it so it can miss shots
+8:36 - woke up from nap. AI is done need title screen/sound effects
+11:02 - added bitchin' music. need to make a "you win" screen.
+12:32 - drew winning screens, need to draw losing screens and pretty up the actual game
+14:06 - started integrating winning screens, added cool scrolling clouds ingame
+15:35 - fixed issue with winning screen, integrating all winning story screens now w/ music
+16:14 - winning screen works with story, need to make losing screen
+16:55 - game is completely playable
+19:30 - various bugfixes, cleanups, polish
+        </pre>
+      </p>
+      <p>
+        <sectionheader>Downloads</sectionheader>
+        <ul>
+          <li>
+            <a href="https://github.com/WolverineSoft/museum/releases/download/dl1/michigan.beirut.zip">GameBoy Advance Version</a>
+          </li>
+        </ul>
+      </p>
+      <p>
+        <sectionheader>Compatibility notes.</sectionheader>
+        Runs in the browser via Emulator.js. To play on desktop, you will need a GBA emulator.
+      </p>
+  </div>
+  </body>
+    <script>
+      EJS_player = "#game";
+      EJS_core = "gba";
+      EJS_pathtodata = "../emulatorjs/data";
+      EJS_gameUrl = "beirut.gba";
+  </script>
+  <script src="../emulatorjs/data/loader.js"></script>
+
+</html>
