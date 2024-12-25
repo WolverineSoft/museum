@@ -156,6 +156,12 @@ const allgames =
         year: 2009,
         desc: "Asteroids with emojis!"
     },
+    "dream": {
+        title: "Dream On",
+        img: "dream/thumbnail.jpg",
+        year: 2005,
+        desc: "A 2D RPG that takes place at U-M."
+    },
     "cw": {
         title: "Crisis Wolverine: Insurrection Green",
         img: "cw/thumbnail.jpg",
@@ -170,7 +176,7 @@ const allgames =
     },
     "duality": {
         title: "Duality",
-        img: "Duality/thumbnail.jpg",
+        img: "duality/thumbnail.jpg",
         year: 2009,
         desc: "A 2D puzzle-platformer"
     },
