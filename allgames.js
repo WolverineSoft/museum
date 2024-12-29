@@ -156,6 +156,18 @@ const allgames =
         year: 2009,
         desc: "Asteroids with emojis!"
     },
+    "animalescape": {
+        title: "Animal Escape",
+        img: "animalescape/thumbnail.jpg",
+        year: 2009,
+        desc: "A multi-level animal escape simulator"
+    },
+    "arcade-carrom": {
+        title: "Arcade Carrom",
+        img: "arcade-carrom/thumbnail.jpg",
+        year: 2002,
+        desc: "The classic Indian game Carrom"
+    },
     "dream": {
         title: "Dream On",
         img: "dream/thumbnail.jpg",
