@@ -125,9 +125,9 @@ class Bear(object):
 
     def attack(self):
         if random.randint(0,1) == 0:
-            return self.bite + random.randint(-self.bite/2, self.bite/2), "bite"
+            return self.bite + random.randint(-self.bite //2, self.bite //2), "bite"
         else:
-            return self.paw + random.randint(-self.paw/4, self.paw/4), "paw"
+            return self.paw + random.randint(-self.paw //4, self.paw //4), "paw"
         
     def attacked(self, damage):
         self.hp -= damage
@@ -811,7 +811,7 @@ class Player(object):
         self.keys = []
         
     def hit(self):
-        damage = self.fists + random.randint(-self.fists/4, self.fists/4)
+        damage = self.fists + random.randint(-self.fists //4, self.fists //4)
 
         if "flag" in self.items:
             damage *= 2
@@ -822,7 +822,7 @@ class Player(object):
         if "boots" in self.items:
             damage = self.feet + random.randint(0, self.feet)
         else:
-            damage = self.feet + random.randint(-self.feet/2, self.feet/2)
+            damage = self.feet + random.randint(-self.feet //2, self.feet //2)
 
         if "flag" in self.items:
             damage *= 2
@@ -831,20 +831,20 @@ class Player(object):
 
     def bitten(self, bite):
         if "scarf" in self.items:
-            bite /= 2
+            bite  //= 2
             
         self.hp -= bite
         print("    You got bitten for",bite,"damage, leaving you",self.hp,"health.")
 
     def pawed(self, paw):
         if "shirt" in self.items:
-            paw /= 2
+            paw  //= 2
 
         self.hp -= paw
         print("    You got pawed for",paw,"damage, leaving you",self.hp,"health.")
     
     def heal(self):
-        self.hp = (self.hp + self.HP)/2
+        self.hp = (self.hp + self.HP) //2
         
         if self.hp > 50:
             self.HP = self.hp
