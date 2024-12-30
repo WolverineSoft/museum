@@ -162,6 +162,12 @@ const allgames =
         year: 2009,
         desc: "A multi-level animal escape simulator"
     },
+    "bearea51": {
+        title: "Bearea 51",
+        img: "bearea51/thumbnail.jpg",
+        year: 2008,
+        desc: "Stephen Colbert has sent you on a secret mission to find the Prizzly Bear..."
+    },
     "arcade-carrom": {
         title: "Arcade Carrom",
         img: "arcade-carrom/thumbnail.jpg",

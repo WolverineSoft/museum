@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Bearea 51 (2008)</title>
+    <link rel="stylesheet" href="../stylesheet.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stephen Colbert has sent you on a secret mission to find the Prizzly Bear...">
+    <link rel="stylesheet" href="https://pyscript.net/snapshots/2024.9.2/core.css">
+    <script type="module" src="https://pyscript.net/snapshots/2024.9.2/core.js"></script>
+  </head>
+  <body>
+    <div class="contentdiv">
+      <gametitle>Bearea 51 (2008)</gametitle>
+      <script type="py" terminal worker src="./bearea51all.py" config="./pyscript.json">print("hello world")</script>
+      <p>
+        <sectionheader>Authors</sectionheader>
+       Adam Starks (MSU)
+      </p>
+      <p>
+        <sectionheader>Description</sectionheader>
+        <pre>-Information-
+
+Name: Bearea 51
+
+Date: Absolutely all code (which is the entirety of the game) was developed during and at this competition, from 1/18/08 to 1/20/08.
+
+Developed By: Team Toothpick (loosely affiliated with Phalanx Studios, of MSU), comprised of Adam Starks as Designer, Producer, and Programmer.
+
+Platform: Game requires Python25 to be installed (included in folder).
+
+Status: Late Beta, not as polished as I'd like. It's definitely beatable, but this is my first text adventure, and there's probably still a handful of errors in there just waiting to be tripped over.
+
+
+-Installation-
+
+To run the game, Python must be installed. It has a tendency to crash when it is run directly, so it's advisable to build the game in a shell and run that instead. Do this by right-clicking on Main.py, selecting 'Edit with IDLE' (or with some other python editor), then selecting the Main.py window, and pressing F5.
+
+
+-Controls-
+
+	All commands in the game consist either of a single verb or a verb followed by a noun.
+	Movement is accomplished by simply entering the direction you wish to go. Directions in the game are Cardinal, and there are several ways to type each direction (west = w = left).
+	There are two attacks in the game: punch and kick. Again, there are multiple keywords for both actions (hit = h = punch the enemy, kick = k = kick the enemy). You can also type 'spray' to stun bears with bear spray and retreat to the previous room you were in.
+	Enemies in the game have numbers next to their name for targeting purposes, so 'k 2' kicks the 2nd enemy. An untargetted shot will hit the 1st enemy. When an enemy dies, enemies above it will slide down. So if there are two enemies, and you kill the 1st, then the 2nd will become the new 1st.
+	Some items in the environment can be picked up, such as keys and boots. This is accomplished by typing 'take' and then the name of the item (which is given in paranthesis), so 'take boots' will pick up the boots. Some items have a beneficial effect once picked up. If this is the case, it will be described alongside the item when it is first introduced.
+	Some items in the game can also be used, such as keys. When you pick up a key, it is put with your other keys. When you come to a locked door, type 'use keys' to see if you have the right key yet.
+	Normally, when there are bears in the room, you can only spray and attack. You cannot move, take items, or use items until all the bears in the room are gone. There are some exceptions to this, such as when you have no escape route (i.e. cannot use your spray).
+	To find out more about your environment, you can type 'glance' or 'look', for less or more information, respectively. You can also type 'player' to see your health, inventory, and score.
+	To get help in-game, type 'help' and follow the instructions. To quit the game, type 'quit', 'q', or 'end'.
+
+
+-Mechanics-
+
+	The enemies themselves have a chance to attack inversely related to how many of them there are, so a lone enemy will always attack you, while a group of 4 enemies will each have a 25% chance of attacking you.
+	Enemies have two attacks available to them, which they will randomly choose between. The two attacks are absorbed by different armors that you find in the game, and are slightly random in their power.
+	There are 4 different types of bear: the black bear is the weakest, then the significantly stronger grizzly bear, then the even stronger polar bear, and finally the incredibly strong Prizzly Bear.
+	Every time you move between rooms, you regenerate health to a limited extent. As you get injured, this ability is reduced.
+
+
+Tips:
+
+- If you're disoriented, enter 'g' to glance at the room you're in.
+- Stuck? Remember, not all verb and noun combinations may be totally intuitive.
+- Low on health? Travel back and forth between rooms a bit.
+- Losing a fight? If the room has an exit, use your spray to flee before you die.
+- Stuck on a riddle? Keep trying, and there is a 100% guarrantee that you'll succeed.
+- Read EVERYTHING. Not everything in this game is intuitive, so it helps to gather all the information you can.
+        </pre>
+      </p>
+      <p>
+        <sectionheader>Downloads</sectionheader>
+        <ul>
+          <li>
+            <a href="https://github.com/WolverineSoft/museum/releases/download/dl1/Bearea51.zip">Download (Original)</a>
+          </li>
+          <li>
+            <a href="bearea51all.py">Download (2025 Python 3 Web Port)</a>
+          </li>
+        </ul>
+      </p>
+      <p>
+        <sectionheader>Compatibility notes.</sectionheader>
+        Python 2.5 game. Runs in the browser via Pyscript. The original version requires Python 2.5 to be installed and provides a Windows MSI installer.
+      </p>
+  </div>
+ 
+</body>
+</html>
