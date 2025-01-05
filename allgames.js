@@ -24,6 +24,12 @@ const allgames =
         year: 2007,
         desc: "Fly an eagle in this endless runner game."
     },
+    "projecthollow": {
+        title: "Project Hollow",
+        img: "projecthollow/thumbnail.jpg",
+        year: 2024,
+        desc: "A prototype for a roguelike created during the 2024 WolverineSoft Studio summer prototyping cycle."
+    },
     "lawnmaintenance": {
         title: "Lawn Maintenance",
         img: "lawnmaintenance/thumbnail.jpg",
