@@ -18,6 +18,12 @@ const allgames =
         year: 2007,
         desc: "Help a giant squid flee its scientist captors."
     },
+    "muffin": {
+        title: "Hat: The Magic Muffin",
+        img: "muffin/title.png",
+        year: 2009,
+        desc: "What is this game? We don't know because we couldn't run it!"
+    },
     "eaglecomehome": {
         title: "Eagle Come Home",
         img: "eaglecomehome/thumbnail.jpg",
