@@ -60,6 +60,10 @@ cardtitle{
     object-fit: contain;
 }
 
+.warning{
+    color: red
+}
+
 /*
 Dark mode
 */
