@@ -24,6 +24,12 @@ const allgames =
         year: 2009,
         desc: "What is this game? We don't know because we couldn't run it!"
     },
+    "omegasquad9": {
+        title: "Omega Squad 9",
+        img: "omegasquad9/thumbnail.jpg",
+        year: 2008,
+        desc: "Defend President Colbert from robots??"
+    },
     "eaglecomehome": {
         title: "Eagle Come Home",
         img: "eaglecomehome/thumbnail.jpg",
