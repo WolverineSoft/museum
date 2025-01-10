@@ -63,7 +63,7 @@
         allhtml.push(cardhtml)
       }
       container.innerHTML = allhtml.join('')
-      document.getElementsByTagName("age")[0].innerHTML =`${allhtml.length}`
+      document.getElementsByTagName("count")[0].innerHTML =`${allhtml.length}`
     }
 
     populate(sortgames(sortfuncs[document.getElementById("sortsel").selectedIndex]))
