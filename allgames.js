@@ -24,6 +24,12 @@ const allgames =
         year: 2009,
         desc: "What is this game? We don't know because we couldn't run it!"
     },
+    "marblebandits": {
+        title: "Marble Bandits",
+        img: "marblebandits/thumbnail.jpg",
+        year: 2004,
+        desc: "The bandit marbles have captured all the gold marbles! Are you a bad enough Marble to get them back?"
+    },
     "omegasquad9": {
         title: "Omega Squad 9",
         img: "omegasquad9/thumbnail.jpg",
