@@ -132,6 +132,12 @@ const allgames =
         year: 2007,
         desc: "A tile based survival game made by \"SpartaSoft\""
     },
+      "routes": {
+        title: "Routes",
+        img: "routes/thumbnail.jpg",
+        year: 2023,
+        desc: "A game of merchants, towns and roads."
+    },
     "nanocrisis": {
         title: "Nanocrisis",
         img: "nanocrisis/thumbnail.jpg",
