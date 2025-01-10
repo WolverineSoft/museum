@@ -1,5 +1,131 @@
 const allgames = 
 {
+     "https://wolverinesoft-studio.itch.io/defender-of-the-dune": {
+        title: "Defenders of the Dune",
+        img: "studiothumb/dune.png",
+        year: 2024,
+        desc: "Help the sandpeople defend their home from crabs",
+        type: "studio"
+    },
+    "https://wolverinesoft-studio.itch.io/corrupt-eldritch-order": {
+        title: "Corrupt Eldritch Order",
+        img: "studiothumb/ceo.png",
+        year: 2024,
+        desc: "Fight your way through hordes of eldritch monsters on behalf of your corporate overlords",
+        type: "studio"
+    },
+     "https://store.steampowered.com/app/2880650/Soul_of_the_Forest/": {
+        title: "Soul of the Forest",
+        img: "studiothumb/forest.png",
+        year: 2024,
+        desc: "Embark on a quest to unite the forest against the tyranical king in an hour long, turn based RPG epic",
+        type: "studio"
+    },
+     "https://store.steampowered.com/app/2687500/Tails_of_War/": {
+        title: "Tails of War",
+        img: "studiothumb/tailsofwar.png",
+        year: 2023,
+        desc: "Command an army to face off against your feline foes in a game of strategy, wits, and whiskers. Featuring Steam multiplayer!",
+        type: "studio"
+    },
+    "https://store.steampowered.com/app/2557580/Cellosseum/": {
+        title: "Celloseum",
+        img: "studiothumb/celloseum.png",
+        year: 2023,
+        desc: "Will you create life from nothing, or will you be lost to the cold indifference of the galaxy.",
+        type: "studio"
+    },
+     "https://store.steampowered.com/app/2365570/Curse_of_the_Corsair/": {
+        title: "Curse of the Corsair",
+        img: "studiothumb/corsair.png",
+        year: 2022,
+        desc: "Swashbuckling and treacherous past echo through a vast and untamed sea, brimming with riches and danger.",
+        type: "studio"
+    },
+    "https://store.steampowered.com/app/2251660/Subtension/": {
+        title: "Subtension",
+        img: "studiothumb/subtension.png",
+        year: 2022,
+        desc: "Outfit, crew and command your submarine to save what's left of humanity beneath the seas of a ruined earth.",
+        type: "studio"
+    },
+    "https://wolverinesoft-studio.itch.io/twin-blades": {
+        title: "Twin Blades' Vengeance",
+        img: "studiothumb/twinblades.png",
+        year: 2022,
+        desc: "Fight with a friend in this pixel-art, cyberpunk street war.",
+        type: "studio"
+    },
+     "https://store.steampowered.com/app/2074700/Bloom_Roots_of_Renewal/": {
+        title: "Bloom: Roots of Renewal",
+        img: "studiothumb/bloom2.png",
+        year: 2022,
+        desc: "Return to Bloom to Free the Forest Creatures using your Magical Powers. Featuring Steam multiplayer!",
+        type: "studio"
+    },
+    "https://store.steampowered.com/app/2205380/Ragnark_TD": {
+        title: "Ragnarök TD",
+        img: "studiothumb/ragnarok.png",
+        year: 2021,
+        desc: "Call upon the power of the gods to defend our village.",
+        type: "studio"
+    },
+    "https://wolverinesoft-studio.itch.io/rideshare-rampage": {
+        title: "Rideshare Rampage",
+        img: "studiothumb/ridesharerampage.png",
+        year: 2021,
+        desc: "Race through the streets to collect the most money possible. Destruction encouraged.",
+        type: "studio"
+    },
+    "https://wolverinesoft-studio.itch.io/caduceus": {
+        title: "Caduceus",
+        img: "studiothumb/caduceus.png",
+        year: 2021,
+        desc: "Restore rainwater to the world.",
+        type: "studio"
+    },
+    "https://wolverinesoft-studio.itch.io/circuitry": {
+        title: "Circuitry",
+        img: "studiothumb/circuitry.png",
+        year: 2020,
+        desc: "A 2D top-down twin stick shooter inspired by Nuclear Throne.",
+        type: "studio"
+    },
+     "https://wolverinesoft-studio.itch.io/desolation-place": {
+        title: "Desolation Place",
+        img: "studiothumb/desolationplace.png",
+        year: 2020,
+        desc: "Escape with your life if you can. Careful though, they'll hear you leaving.",
+        type: "studio"
+    },
+     "https://wolverinesoft-studio.itch.io/bloom-tome-of-power": {
+        title: "Bloom: Tome of Power",
+        img: "studiothumb/bloom1.png",
+        year: 2020,
+        desc: "Use your skills of magic and maneuverability to quell the overgrowth and free a forest and lost village of creatures!",
+        type: "studio"
+    },
+     "https://wolverinesoft-studio.itch.io/io": {
+        title: "Io",
+        img: "studiothumb/io.png",
+        year: 2020,
+        desc: "Io is a single-player action platformer featuring challenging combat, with a main teleportation mechanic",
+        type: "studio"
+    },
+     "https://wolverinesoft-studio.itch.io/infectant": {
+        title: "Infectant",
+        img: "studiothumb/infectant.png",
+        year: 2019,
+        desc: "Race through the human immune system as a lonely bacterium!",
+        type: "studio"
+    },
+    "https://wolverinesoft-studio.itch.io/dreamwillow": {
+        title: "Dreamwillow",
+        img: "studiothumb/dreamwillow.png",
+        year: 2019,
+        desc: "Guide our mysterious necromancer protagonist through the dreamlike forest!",
+        type: "studio"
+    },
     "stranded": {
         title: "Stranded!",
         img: "stranded/thumbnail.jpg",
