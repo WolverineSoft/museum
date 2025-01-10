@@ -172,7 +172,8 @@ const allgames =
         title: "Project Hollow",
         img: "projecthollow/thumbnail.jpg",
         year: 2024,
-        desc: "A prototype for a roguelike created during the 2024 WolverineSoft Studio summer prototyping cycle."
+        desc: "A prototype for a roguelike created during the 2024 WolverineSoft Studio summer prototyping cycle.",
+     type: "studio"
     },
     "lawnmaintenance": {
         title: "Lawn Maintenance",
