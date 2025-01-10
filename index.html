@@ -15,7 +15,7 @@
     <p>
       In addition, we have also archived some non-game data which can be viewed here: <a href="misc-files">misc-files.</a>
     </p>
-    <p>Sort games by:
+    <p>Sort <count></count> games by:
       <select onchange="selchanged(event)" id="sortsel">
         <option default>Year (newest first)</option>
         <option>Year (oldest first)</option>
@@ -63,6 +63,7 @@
         allhtml.push(cardhtml)
       }
       container.innerHTML = allhtml.join('')
+      document.getElementsByTagName("age")[0].innerHTML =`${allhtml.length}`
     }
 
     populate(sortgames(sortfuncs[document.getElementById("sortsel").selectedIndex]))
