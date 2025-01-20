@@ -156,6 +156,12 @@ const allgames =
         year: 2006,
         desc: "The ultimate battle between Orange and Blue."
     },
+        "colbert-con": {
+        title: "Colbert Conquest",
+        img: "colbert-con/thumbnail.jpg",
+        year: 2008,
+        desc: "Are you a bad enough dude to get Colbert to the top?"
+    },
       "cerebral-conquest": {
         title: "Cerebral Conquest",
         img: "cerebral-conquest/thumbnail.png",
