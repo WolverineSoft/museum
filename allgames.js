@@ -174,6 +174,12 @@ const allgames =
         year: 2008,
         desc: "Inteview candidates as Stephen Colbert"
     },
+      "colbear": {
+        title: "Colbert Crisis",
+        img: "colbear/thumbnail.png",
+        year: 2008,
+        desc: "Destroy the bears that were once human."
+    },
       "better-know-a-district": {
         title: "Better Know a District",
         img: "better-know-a-district/thumbnail.jpg",
