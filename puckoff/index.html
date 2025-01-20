@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Puck Off (2004)</title>
+    <link rel="stylesheet" href="../stylesheet.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Online multiplayer game about clearing away pucks">
+  </head>
+  <body>
+    <div class="contentdiv">
+      <gametitle>Puck Off (2004)</gametitle>
+      <img class="gameHero" src="thumbnail.jpg">
+      <p>
+        <sectionheader>Authors</sectionheader>
+        Alex Kerfoot
+      </p>
+      <p>
+        <sectionheader>Description</sectionheader>
+        <pre>Toby Long, Andrew Roskamp, Kevin Cheng 
+
+PuckOff—Instructions
+
+PuckOff exe: 
+http://www-personal.engin.umich.edu/~kkcheng/puckoff_b131.zip
+
+PuckOff source: 
+http://www-personal.engin.umich.edu/~kkcheng/puckoff_b131_source.zip
+
+
+1.0 What is PuckOff?
+
+PuckOff is a fast-paced, intense, and unique networked multiplayer game in which 2-4 players face off against one another in the attempt to be the first to clear his or her zone of pucks.  Every level is divided by barriers into a number of colored zones—with one zone for each player in the game.  Every player starts with between 3-4 pucks in his or her zone, and the objective is to clear your zone of pucks by shooting them one-by-one into your opponents’ colored zones (see Figure 1.0).
+        </pre>
+        <pre>PuckOff—Design Document Differences
+
+1.  Used OpenTNL instead of SDL in the game’s creation
+•	OpenTNL is an open source C++ networking API designed for simulations and games.  OpenTNL took care of a lot of the networking code we would have had to write, and it allowed us to focus more on perfecting the game play.  Furthermore, it was able to work with OpenGL—something SDL could not do.
+
+2.  Did not include different types of pucks
+•	Although this was originally one of the ideas we were really hoping to implement (mainly because of the effect it would have on game play and strategy), we decided against it after testing the game thoroughly.  Using different puck types would clutter the map more than just normal pucks would.  We found that PuckOff games tend to last anywhere from 11 seconds to no more than 2 minutes in length, and including specialty pucks would drastically change this already frantic and fun game play experience we had created.
+
+3.  No computer-controlled opponents (no single player)
+•	In the design document, we had specified that the host player would be able to create a game of PuckOff against computer-controlled opponents, or a combination of human opponents and computer-controlled opponents.  We decided to get rid of computer players in the game, because we had trouble coming up with a good way to implement computer opponents that behaved realistically like human opponents would during a game.  Our ideas all resulted in a computer opponent that played randomly and not with any real strategy in mind.  However, since removing computer-controlled opponents from the game effectively removed the single player aspect of PuckOff, we changed the game so…
+
+4.  Maps no longer require 4 players only
+•	PuckOff was originally designed to be a 4 player game, but since the single player aspect of the game was removed, we created maps designed for 2-4 players instead of just 4.  We created a lot more maps (10) than we had originally thought we would include in the game, and this provides the player with a lot of choice over map selection and number of players in the game.  Maps now cycle after each game, too, so the game is continuously changing (note: if the map selected was a 2 player map, PuckOff will cycle through 2 player maps only to prevent players from getting booted from games).
+        </pre>
+        <pre>PuckOff—Self Evaluation
+
+Things we are most proud of:
+•	PuckOff is addictive and a hell a lot of fun to play.  There were many  times where we would go to play test and end up playing more than 30 games straight against each other
+•	The game play is fast-paced and frantic as we had originally hoped it would be
+•	We created a large number of colorful, different maps for the player to choose from
+•	The game play is smooth over the network, and the networking code is solid (thank you OpenTNL for your help!)
+•	The pucks behave realistically when colliding with the walls and other pucks
+•	The controls are simple and easy-to-use—allowing new players to quickly learn how to play a game of PuckOff
+•	We worked very well with one another, and creating the game was a very fun experience for all of us
+
+Things we wish we could have done better:
+•	We wish we could have come up with a good way to simulate computer opponents—which would have allowed us to include a single player option
+•	If we had had the time, there were 1-2 specialty pucks that we would have liked to implement to add more of a twist to the game play.  We didn’t want to implement all of the specialty pucks we had described in the design document, but we thought the Kaboom Puck in particular would have been a lot of fun to play with.
+•	We never figured quite how OpenTNL worked with music files, so, unfortunately, we left game music out of PuckOff
+
+Splitting up the workload:
+•	Andrew and Kevin did the majority of the behind-the-scenes programming, with Andrew specializing in game play  and graphics, and Kevin specializing in networking, game play, and the PuckOff UI
+•	Toby was in charge of all the documentation and designed all but one of the levels used in PuckOff
+•	With all of us helping in this way, we were able to play to our strengths and ended up creating a game that we are particularly proud and fond of
+        </pre>
+        <pre>
+
+        </pre>
+      </p>
+      <p>
+        <sectionheader>Downloads</sectionheader>
+        <ul>
+          <li>
+            <a href="https://github.com/WolverineSoft/museum/releases/download/dl1/Puckoff.zip">Windows Version</a>
+          </li>
+        </ul>
+      </p>
+      <p>
+        <sectionheader>Compatibility notes.</sectionheader>
+        Confirmed working on Windows 10.
+        
+      </p>
+  </div>
+  </body>
+</html>
