@@ -138,6 +138,12 @@ const allgames =
         year: 2009,
         desc: "Align 3 or more blocks of the color to cause them to explode and score points."
     },
+     "plumber": {
+        title: "Plumber",
+        img: "plumber/thumbnail.jpg",
+        year: 2009,
+        desc: "Arrange pipes to form a path"
+    },
       "routes": {
         title: "Routes",
         img: "routes/thumbnail.jpg",
