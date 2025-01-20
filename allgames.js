@@ -162,6 +162,12 @@ const allgames =
         year: 2006,
         desc: "The ultimate battle between Orange and Blue."
     },
+      "playplace": {
+        title: "Play Place",
+        img: "playplace/thumbnail.PNG",
+        year: 2005,
+        desc: "A multiplayer battle game where you must get to the gate avoiding the balls before the other players."
+    },
         "colbert-con": {
         title: "Colbert Conquest",
         img: "colbert-con/thumbnail.jpg",
