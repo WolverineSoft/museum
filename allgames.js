@@ -162,6 +162,12 @@ const allgames =
         year: 2007,
         desc: "SSwitch the polarity of your charge to attract or repel particles"
     },
+     "puckoff": {
+        title: "Puck Off",
+        img: "puckoff/thumbnail.jpg",
+        year: 2004,
+        desc: "Online multiplayer game about clearing away pucks"
+    },
     "nanocrisis": {
         title: "Nanocrisis",
         img: "nanocrisis/thumbnail.jpg",
