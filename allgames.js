@@ -156,6 +156,12 @@ const allgames =
         year: 2007,
         desc: "Sail the seven seas. Sink your enemies. "
     },
+      "polarity-switch": {
+        title: "Polarity Switch",
+        img: "polarity-switch/thumbnail.png",
+        year: 2007,
+        desc: "SSwitch the polarity of your charge to attract or repel particles"
+    },
     "nanocrisis": {
         title: "Nanocrisis",
         img: "nanocrisis/thumbnail.jpg",
