@@ -152,9 +152,15 @@ const allgames =
     },
       "block-commandos": {
         title: "Block Commandos",
-        img: "block-commandos/thumbnail.jpg",
+        img: "block-commandos/thumbnail.PNG",
         year: 2006,
         desc: "The ultimate battle between Orange and Blue."
+    },
+      "cerebral-conquest": {
+        title: "Cerebral Conquest",
+        img: "cerebral-conquest/thumbnail.png",
+        year: 2009,
+        desc: "Possess humans and use their weapons to progress."
     },
     "kraken": {
         title: "Escape of the Giant Squid",
