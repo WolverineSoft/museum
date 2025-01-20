@@ -150,6 +150,12 @@ const allgames =
         year: 2007,
         desc: "Help a giant squid flee its scientist captors."
     },
+     "battle-of-wits": {
+        title: "Stephen Colbert's Battle of Wits",
+        img: "battle-of-wits/thumbnail.jpg",
+        year: 2008,
+        desc: "Inteview candidates as Stephen Colbert"
+    },
     "muffin": {
         title: "Hat: The Magic Muffin",
         img: "muffin/title.png",
