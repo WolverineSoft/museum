@@ -186,6 +186,12 @@ const allgames =
         year: 2008,
         desc: "Inteview candidates as Stephen Colbert"
     },
+     "particle-attack": {
+        title: "Particle Attack",
+        img: "particle-attack/thumbnail.jpg",
+        year: 2009,
+        desc: "Use the arrow keys maneuver your ship to activate each P-switch while avoiding the particles!"
+    },
       "colbear": {
         title: "Colbert Crisis",
         img: "colbear/thumbnail.png",
