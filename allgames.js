@@ -147,8 +147,14 @@ const allgames =
      "blobby-waters": {
         title: "Blobby Waters",
         img: "blobby-waters/thumbnail.jpg",
-        year: 2007,
+        year: 2004,
         desc: "Blow the blobbies to the stars. Featuring 2D fluid simulation!"
+    },
+      "block-commandos": {
+        title: "Block Commandos",
+        img: "block-commandos/thumbnail.jpg",
+        year: 2006,
+        desc: "The ultimate battle between Orange and Blue."
     },
     "kraken": {
         title: "Escape of the Giant Squid",
