@@ -144,6 +144,12 @@ const allgames =
         year: 2003,
         desc: "A 3D Role-playing game"
     },
+     "blobby-waters": {
+        title: "Blobby Waters",
+        img: "blobby-waters/thumbnail.jpg",
+        year: 2007,
+        desc: "Blow the blobbies to the stars. Featuring 2D fluid simulation!"
+    },
     "kraken": {
         title: "Escape of the Giant Squid",
         img: "kraken/thumbnail.jpg",
