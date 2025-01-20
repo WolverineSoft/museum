@@ -144,6 +144,12 @@ const allgames =
         year: 2023,
         desc: "A game of merchants, towns and roads."
     },
+     "perilous-seas": {
+        title: "Perilous Seas",
+        img: "perilous-seas/thumbnail.png",
+        year: 2007,
+        desc: "Sail the seven seas. Sink your enemies. "
+    },
     "nanocrisis": {
         title: "Nanocrisis",
         img: "nanocrisis/thumbnail.jpg",
