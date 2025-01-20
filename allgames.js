@@ -132,6 +132,12 @@ const allgames =
         year: 2007,
         desc: "A tile based survival game made by \"SpartaSoft\""
     },
+      "boom-blocks": {
+        title: "Boom Blocks",
+        img: "boom-blocks/thumbnail.jpg",
+        year: 2009,
+        desc: "Align 3 or more blocks of the color to cause them to explode and score points."
+    },
       "routes": {
         title: "Routes",
         img: "routes/thumbnail.jpg",
