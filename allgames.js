@@ -188,7 +188,7 @@ const allgames =
     },
       "playplace": {
         title: "Play Place",
-        img: "playplace/thumbnail.PNG",
+        img: "playplace/thumbnail.jpg",
         year: 2005,
         desc: "A multiplayer battle game where you must get to the gate avoiding the balls before the other players."
     },
