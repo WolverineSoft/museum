@@ -156,6 +156,12 @@ const allgames =
         year: 2008,
         desc: "Inteview candidates as Stephen Colbert"
     },
+      "better-know-a-district": {
+        title: "Better Know a District",
+        img: "better-know-a-district/thumbnail.jpg",
+        year: 2008,
+        desc: "Convince candidates to appear on Colbert's show"
+    },
     "muffin": {
         title: "Hat: The Magic Muffin",
         img: "muffin/title.png",
