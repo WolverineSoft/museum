@@ -144,6 +144,12 @@ const allgames =
         year: 2009,
         desc: "Arrange pipes to form a path"
     },
+     "pulse": {
+        title: "pulse",
+        img: "pulse/thumbnail.jpg",
+        year: 2009,
+        desc: "Guide a spark along a wire"
+    },
       "routes": {
         title: "Routes",
         img: "routes/thumbnail.jpg",
