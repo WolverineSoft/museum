@@ -144,6 +144,12 @@ const allgames =
         year: 2007,
         desc: "A tile based survival game made by \"SpartaSoft\""
     },
+      "shoot": {
+        title: "Shoot",
+        img: "shoot/thumbnail.jpg",
+        year: 2006,
+        desc: "Online Linux battle game"
+    },
      "space-ace": {
         title: "Space Ace",
         img: "space-ace/thumbnail.jpg",
