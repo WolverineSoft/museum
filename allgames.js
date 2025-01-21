@@ -144,6 +144,12 @@ const allgames =
         year: 2009,
         desc: "2D puzzle game"
     },
+       "smb": {
+        title: "Supermassive Black Hole",
+        img: "smb/thumbnail.jpg",
+        year: 2007,
+        desc: "Space-themed shooter"
+    },
       "planet-bomber": {
         title: "Planet Bomber",
         img: "planet-bomber/thumbnail.jpg",
