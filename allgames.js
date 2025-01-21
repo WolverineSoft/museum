@@ -162,17 +162,23 @@ const allgames =
         year: 2023,
         desc: "A game of merchants, towns and roads."
     },
+      "sleepkeeper": {
+        title: "Sleepkeeper",
+        img: "sleepkeeper/thumbnail.jpg",
+        year: 2005,
+        desc: "Keep the dream inflated for as long as possible"
+    },
      "perilous-seas": {
         title: "Perilous Seas",
         img: "perilous-seas/thumbnail.png",
         year: 2007,
-        desc: "Sail the seven seas. Sink your enemies. "
+        desc: "Sail the seven seas. Sink your enemies."
     },
       "sheepherd": {
         title: "Sheep Herd",
         img: "sheepherd/thumbnail.jpg",
         year: 2004,
-        desc: "Place fences to keep sheep safe "
+        desc: "Place fences to keep sheep safe"
     },
       "polarity-switch": {
         title: "Polarity Switch",
