@@ -132,6 +132,12 @@ const allgames =
         year: 2009,
         desc: "2D puzzle game"
     },
+      "planet-bomber": {
+        title: "Planet Bomber",
+        img: "planet-bomber/thumbnail.jpg",
+        year: 2009,
+        desc: "The Earth is under attack, and it's your job to defend us! A bit like Space Invaders."
+    },
       "zenirocket": {
         title: "Zenirocket",
         img: "zenirocket/thumbnail.jpg",
