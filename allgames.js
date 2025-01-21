@@ -156,6 +156,12 @@ const allgames =
         year: 2005,
         desc: "Help the leaf escape the world of the void and get back to reality."
     },
+     "colbert-punchout": {
+        title: "Stephen Colbert's Magical Punchout WHAT?! Adventure",
+        img: "colbert-punchout/thumbnail.jpg",
+        year: 2008,
+        desc: "Stephen Colbert gets into fistfights"
+    },
      "colbert-jensen": {
         title: "Stephen Colbert's and the Real Life Tek Jensen Adventure",
         img: "colbert-jensen/thumbnail.jpg",
