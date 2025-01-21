@@ -168,6 +168,12 @@ const allgames =
         year: 2007,
         desc: "Sail the seven seas. Sink your enemies. "
     },
+      "sheepherd": {
+        title: "Sheep Herd",
+        img: "sheepherd/thumbnail.png",
+        year: 2004,
+        desc: "Place fences to keep sheep safe "
+    },
       "polarity-switch": {
         title: "Polarity Switch",
         img: "polarity-switch/thumbnail.jpg",
