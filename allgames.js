@@ -156,6 +156,12 @@ const allgames =
         year: 2006,
         desc: "Online Linux battle game"
     },
+      "tripleshot": {
+        title: "TripleShot",
+        img: "tripleshot/thumbnail.jpg",
+        year: 2009,
+        desc: "2D top-down shooter"
+    },
      "space-ace": {
         title: "Space Ace",
         img: "space-ace/thumbnail.jpg",
