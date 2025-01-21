@@ -168,6 +168,12 @@ const allgames =
         year: 2005,
         desc: "Keep the dream inflated for as long as possible"
     },
+      "sandman": {
+        title: "he Sand Man defends Sand Land from the Monkey Hoard of Doom",
+        img: "sandman/thumbnail.jpg",
+        year: 2005,
+        desc: "The title tells you all you need to know"
+    },
      "perilous-seas": {
         title: "Perilous Seas",
         img: "perilous-seas/thumbnail.png",
