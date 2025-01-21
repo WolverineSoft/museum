@@ -172,7 +172,13 @@ const allgames =
         title: "Polarity Switch",
         img: "polarity-switch/thumbnail.jpg",
         year: 2007,
-        desc: "SSwitch the polarity of your charge to attract or repel particles"
+        desc: "Switch the polarity of your charge to attract or repel particles"
+    },
+       "critically-acclaimed": {
+        title: "Stephen Colbert: Critically Acclaimed",
+        img: "critically-acclaimed/thumbnail.jpg",
+        year: 2008,
+        desc: "Click the mouse to send shock waves to push trophies through a maze of bears"
     },
      "puckoff": {
         title: "Puck Off",
