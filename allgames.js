@@ -168,6 +168,12 @@ const allgames =
         year: 2023,
         desc: "A game of merchants, towns and roads."
     },
+       "space-pool": {
+        title: "3D Space Pool",
+        img: "space-pool/thumbnail.jpg",
+        year: 2004,
+        desc: "3D pool featuring physics simulation!"
+    },
       "sleepkeeper": {
         title: "Sleepkeeper",
         img: "sleepkeeper/thumbnail.jpg",
