@@ -132,6 +132,12 @@ const allgames =
         year: 2008,
         desc: "You are Stephen Colbert, on the campaign trail for the presidency of the United States."
     },
+      "tek-jansen-rave": {
+        title: "Tek Jansen Rave",
+        img: "tek-jansen-rave/thumbnail.jpg",
+        year: 2008,
+        desc: "Something related to Stephen Colbert."
+    },
      "stone-curse": {
         title: "Tower of the Stone Curse",
         img: "stone-curse/thumbnail.jpg",
