@@ -156,6 +156,12 @@ const allgames =
         year: 2005,
         desc: "Help the leaf escape the world of the void and get back to reality."
     },
+      "light-wrap": {
+        title: "Light Wrap",
+        img: "light-wrap/thumbnail.jpg",
+        year: 2007,
+        desc: "Manuever your light around the screen avoiding collisions with the walls, other lights, or any light trails."
+    },
       "atlas-of-war": {
         title: "Atlas of War",
         img: "atlas-of-war/thumbnail.jpg",
