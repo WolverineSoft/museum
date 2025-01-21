@@ -204,6 +204,12 @@ const allgames =
         year: 2005,
         desc: "A multiplayer battle game where you must get to the gate avoiding the balls before the other players."
     },
+      "red-reflex": {
+        title: "Red Reflex",
+        img: "red-reflex/thumbnail.jpg",
+        year: 2004,
+        desc: "Two-player fighting game"
+    },
         "colbert-con": {
         title: "Colbert Conquest",
         img: "colbert-con/thumbnail.jpg",
