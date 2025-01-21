@@ -132,6 +132,12 @@ const allgames =
         year: 2009,
         desc: "2D puzzle game"
     },
+      "vase-bounce": {
+        title: "Vase Bounce",
+        img: "vase-bounce/thumbnail.jpg",
+        year: 2009,
+        desc: "You are a vase with a rubber bottom. Bounce to victory."
+    },
      "squatter-house": {
         title: "Squatter House",
         img: "squatter-house/thumbnail.jpg",
