@@ -144,6 +144,12 @@ const allgames =
         year: 2005,
         desc: "2-player online competitive squatting"
     },
+      "wandering-ash": {
+        title: "Wandering Ash",
+        img: "wandering-ash/thumbnail.jpg",
+        year: 2005,
+        desc: "Help the leaf escape the world of the void and get back to reality."
+    },
      "colbert-jensen": {
         title: "Stephen Colbert's and the Real Life Tek Jensen Adventure",
         img: "colbert-jensen/thumbnail.jpg",
