@@ -132,6 +132,12 @@ const allgames =
         year: 2007,
         desc: "A tile based survival game made by \"SpartaSoft\""
     },
+     "switch-witch": {
+        title: "Switch Witch",
+        img: "switch-witch/thumbnail.jpg",
+        year: 2009,
+        desc: "Multiplayer puzzle game"
+    },
       "boom-blocks": {
         title: "Boom Blocks",
         img: "boom-blocks/thumbnail.jpg",
