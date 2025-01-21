@@ -1,51 +1,73 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <title>Switcheroo (2009)</title>
+    <title>Shoot (2006)</title>
     <link rel="stylesheet" href="../stylesheet.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Made in Matlab for some reason">
+    <meta name="description" content="Online Linux battle game">
   </head>
   <body>
     <div class="contentdiv">
-      <gametitle>Switcheroo (2009)</gametitle>
+      <gametitle>Shoot (2006)</gametitle>
       <img class="gameHero" src="thumbnail.jpg">
       <p>
         <sectionheader>Authors</sectionheader>
-        Vishnu Desaraju
+        Steve Jones, Philip Rockenbach, Brian Lindsey (brilinds)
       </p>
       <p>
         <sectionheader>Description</sectionheader>
-       <pre>Switcheroo!
-Vishnu Desaraju
+       <pre>Shoot! v0.5
+by
+Steve Jones (spatrick)
+Philip Rockenbach (pjrocken)
+Brian Lindsey (brilinds)
 
-Requires Matlab Component Runtime 7:
-http://web.mit.edu/~rajeswar/www/Switcheroo!/MCRInstaller.zip
+A simple networked game developed for linux, currently in Beta.
 
-Yes.. this game was in fact made in Matlab.
+controls:
+arrow keys move and turn your character (currently simultaneously)
+space fires a rocket in your current direction
 
+play mechanics:
+your character is shown in white, enemies in red
+your character dies on collision with a rocket or another player
+new players start on the next new round
+current player cap is 16 (tested up to 7)
 
-Background Music:
-Uo-OH PART 2 by Fugue State
-from http://opsound.org/artist/fuguestate/
-Creative Commons Attribution-ShareAlike license
+startup:
+commandline
+first player runs
+%shoot
+subsequent players run
+%shoot -i <name or ip of first player's computer>
 
-Sound Effects: http://www.a1freesoundeffects.com/
+the flag -p followed by a number indicates that this game is run by an automated character
+-p 1 runs a circle player, other players not yet implemented
+
+The current version assumes a common port number so will only work within a subnet (lan) and only 1 player can run per machine
+
+future features (if we get around to them):
+handle disconnects (currently the game locks up if a player disconnects)
+maps
+powerups
+various automated players
+internet play
+separate direction and movement
+
        </pre>
       </p>
       <p>
         <sectionheader>Downloads</sectionheader>
         <ul>
           <li>
-            <a href="https://github.com/WolverineSoft/museum/releases/download/dl1/Switcheroo.zip">Windows Version</a>
+            <a href="https://github.com/WolverineSoft/museum/releases/download/dl1/Shoot.zip">Linux Version</a>
           </li>
         </ul>
       </p>
       <p>
         <sectionheader>Compatibility notes.</sectionheader>
-        <p class="warning">We cannot test this game because it requires Matlab to work.</p> Wolverines: You can use Matlab for free on 
-        university-owned computers.
+        Currently untested. 
       </p>
   </div>
   </body>
