@@ -132,6 +132,12 @@ const allgames =
         year: 2005,
         desc: "2-player online competitive squatting"
     },
+     "colbert-jensen": {
+        title: "Stephen Colbert's and the Real Life Tek Jensen Adventure",
+        img: "colbert-jensen/thumbnail.jpg",
+        year: 2008,
+        desc: "Stephen Colbert has become Tek Jensen. Help him recover the Truthiness."
+    },
     "stranded": {
         title: "Stranded!",
         img: "stranded/thumbnail.jpg",
