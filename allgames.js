@@ -126,6 +126,12 @@ const allgames =
         desc: "Guide our mysterious necromancer protagonist through the dreamlike forest!",
         type: "studio"
     },
+     "squatter-house": {
+        title: "Squatter House",
+        img: "squatter-house/thumbnail.jpg",
+        year: 2005,
+        desc: "2-player online competitive squatting"
+    },
     "stranded": {
         title: "Stranded!",
         img: "stranded/thumbnail.jpg",
