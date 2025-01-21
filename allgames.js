@@ -126,6 +126,12 @@ const allgames =
         desc: "Guide our mysterious necromancer protagonist through the dreamlike forest!",
         type: "studio"
     },
+       "campaign-trail": {
+        title: "The Campaign Trail",
+        img: "campaign-trail/thumbnail.jpg",
+        year: 2008,
+        desc: "You are Stephen Colbert, on the campaign trail for the presidency of the United States."
+    },
      "stone-curse": {
         title: "Tower of the Stone Curse",
         img: "stone-curse/thumbnail.jpg",
