@@ -132,6 +132,12 @@ const allgames =
         year: 2009,
         desc: "2D puzzle game"
     },
+      "zenirocket": {
+        title: "Zenirocket",
+        img: "zenirocket/thumbnail.jpg",
+        year: 2007,
+        desc: "First-person rocket piloting demo"
+    },
       "vase-bounce": {
         title: "Vase Bounce",
         img: "vase-bounce/thumbnail.jpg",
