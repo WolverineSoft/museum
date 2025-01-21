@@ -132,6 +132,12 @@ const allgames =
         year: 2007,
         desc: "A tile based survival game made by \"SpartaSoft\""
     },
+     "space-ace": {
+        title: "Space Ace",
+        img: "space-ace/thumbnail.jpg",
+        year: 2009,
+        desc: "Kick some space ass"
+    },
      "switch-witch": {
         title: "Switch Witch",
         img: "switch-witch/thumbnail.jpg",
