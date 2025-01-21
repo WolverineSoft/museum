@@ -156,6 +156,12 @@ const allgames =
         year: 2009,
         desc: "Multiplayer puzzle game"
     },
+       "switcheroo": {
+        title: "Switcheroo!",
+        img: "switcheroo/thumbnail.jpg",
+        year: 2009,
+        desc: "Made in Matlab for some reason"
+    },
       "boom-blocks": {
         title: "Boom Blocks",
         img: "boom-blocks/thumbnail.jpg",
