@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Stephen Colbert: Critically Acclaimed (2008)</title>
+    <link rel="stylesheet" href="../stylesheet.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Click the mouse to send shock waves to push a trophy">
+  </head>
+  <body>
+    <div class="contentdiv">
+      <gametitle>Stephen Colbert: Critically Acclaimed (2008)</gametitle>
+      <img class="gameHero" src="thumbnail.jpg">
+      <p>
+        <sectionheader>Authors</sectionheader>
+        Talha Khan, Marc Schweikert, Sarah Trombley
+      </p>
+      <p>
+        <sectionheader>Description</sectionheader>
+        <pre>Project name:  		Steven Colbert: Critically Acclaimed
+
+Team Members:  		Talha Khan, Marc Schweikert, Sarah Trombley
+
+Project description:	This is a game involving navigating various awards (such as a medal
+			or an Emmy) through a maze of bears to the exit.  The awards are 
+			moved by clicking near them, creating a "ripple" that pushes them away.
+
+How game fits theme:	Our game fits the theme of "Honoring Steven Colbert" by, literally, honoring
+			Steven Colbert.  By navigating the various awards through the maze, you protect
+			them from the bears (that Colbert fears) and honor Colbert with their safe arrival.
+			Upon succussful completion of the game, Colbert wins much international honor and praise.
+
+Ingredients list:	Zenipex Library
+
+Credits:		Zenipex was created by Mitchell Keith Bloch
+        </pre>
+        <pre>Teammate(s): Sarah Trombley, Marc Schweikert, Talha Khan
+Game Name: Critically Acclaimed
+
+Include development milestones, TODO lists, major design decisions, etc. We need to know what you were working on when, what you wanted to do but couldn't fit in, what went right and what went wrong. Keeping this log will also assist you in giving a post-mortem for your game project.
+
+Please also indicate at what times you are actually working on your game, if you are not going to be on-site the entire time of the contest.  
+
+FRIDAY
+6:00  -  7:00pm:	Waiting for the competition to start
+
+
+7:00  -  8:00pm:  	Discussed possible game ideas, looked at Java tutorials as a
+			possible game development language
+
+8:00  -  9:00pm: 	Got a tutorial from Mitchell on the Zenilib game engine, made the
+			Gamestate template for the game
+
+9:00  - 10:00pm: 	More discussion of game ideas.  I worked on getting mouse input, got a crosshair
+			for the cursor working.  Talha worked on getting multiple images to move on the
+			screen at once, Marc on more image ideas.
+
+10:00 - 12:00mn: 	Got a ball moving on the screen based on the distance from a mouse click (as if
+			a ripple from the mouse were moving the ball).  Came up with the final game
+			idea of guiding an object using this mouse interface through a maze of bears, with the
+			object being a medal, Emmy, etc.  By passing the item through the maze successfully,
+			Colbert receives the award.
+
+SATURDAY
+12:00 -  1:00am: 	Got the test ball to bounce off the edges of the screen, keeping it the the game area.
+			Found some images to use for the game.
+
+1:00  -  2:00am: 	Gone
+
+
+2:00  -  3:00am: 	Gone
+
+	
+3:00  -  4:00am: 	Gone
+ 
+
+4:00  -  5:00am: 	Gone
+
+
+5:00  -  6:00am: 	Gone
+
+
+6:00  -  7:00am: 	Gone
+
+
+7:00  -  8:00am: 	Gone
+
+	
+8:00  -  9:00am: 	Gone
+ 	
+
+9:00  - 10:00am: 	Worked on a Body class to represent the ball and the bear obstacles that would
+			make up the maze to navigate.  Tested out loading different images for this Body
+			object to be drawn.
+
+10:00 - 11:00am: 	Came up with a format for putting level design in a text file, and loading this
+			data in to create the maze.
+
+11:00 - 12:00nn: 	I worked on a Grid and Tile class that was intended to let our maze be more customizable,
+			for example, by letting the number of grid squares represented on the screen change.  This
+			was also intended to take care of broad testing for collision detection.
+
+12:00 -  1:00pm: 	I continued to work on the Tile and Grid class.  Marc and Talha came, and they began to
+			work on getting some image assets for the game.
+
+
+1:00  -  2:00pm: 	Lunch
+
+
+2:00  -  3:00pm: 	I gave up on the Grid and Tile class, as it was not easing the creation of more levels.
+			I reverted to an old backup of the game and started working on collision detection.  Marc
+			began to create new maze levels, as well created a slightly different level text format. 
+			Talha worked on creating multiple gamestates for the purpose of adding title and win screens,
+			as well as moving from one level to the next.
+
+3:00  -  4:00pm: 	We continued largely working on the things we did the last hour.  Talha began creating
+			title and win screens for the game, and Mark created new awards to move through the maze.
+	
+4:00  -  5:00pm: 	Largely the same as last hour.  We set a goal of getting a one level game, from title screen
+			to end screen, working by the end of the day.
+
+5:00  -  6:00pm: 	Finally got collision detection to work.  Played around with the parameters to pass to the
+			gamestate to allow changes in the level loaded and the difficulty of the game (by making the
+			ball more sensitive to a mouse click).
+
+6:00  -  7:00pm:	Continued creating images.  I started playing around with adding music and sound effects
+
+
+7:00  -  8:00pm: 	Got sample music from the Zenilib tutorials to play during the game, as well as sample 
+			sound effects when the ball crashed or when the mouse was clicked.
+
+
+8:00  -  9:00pm: 	Dinner
+
+
+9:00  - 10:00pm: 	Finalized the sound effects for a mouse click and a crash into the wall of bears.  Talha got
+			gamestate transitions working well, Marc added some more levels.  I tried finding different
+			music to play during the game.
+
+10:00 - 11:00pm: 	Set the goal of having a one-level game working completely by next morning.  I set my own goal
+			of getting a ripple animated when the mouse clicked to move the ball.
+
+
+11:00 - 12:00pm: 	Gone
+
+
+SUNDAY
+12:00 -  1:00am: 	Gone
+
+
+1:00  -  2:00am: 	Gone
+
+	
+2:00  -  3:00am: 	Gone
+
+
+3:00  -  4:00am: 	Gone
+
+
+4:00  -  5:00am: 	Gone
+
+
+5:00  -  6:00am: 	Gone
+
+
+6:00  -  7:00am: 	Gone
+
+
+7:00  -  8:00am: 	Gone
+
+
+8:00  -  9:00am: 	Gone
+
+
+9:00  - 10:00am: 	Gone
+
+
+10:00 - 11:00am: 	Arrived, created images for the animated ripple.
+
+
+11:00 - 12:00nn: 	Got the animated ripple working.  Started integrating the different parts of code each
+			of us were working on the last day.
+
+12:00 -  1:00pm: 	Marc and Talha arrived.  Marc began working on getting the ripple images to have transparent
+			backgrounds, Talha worked on the flow of the game from start screen to level to endscreen.
+
+1:00  -  2:00pm: 	Found background music for the game.  Talha finished the flow between levels and end screens,
+			and Marc got all of the images to have transparent backgrounds.
+	
+2:00  -  3:00pm: 	We integrated all of the code, allowing our game to move between levels and use all the music
+			and images that we have collected.  We set the goal of having a three-level game working 
+			by the end of the contest.
+
+3:00  -  4:00pm: 	Merged some more game transitions, allowed a person to restart a level or quit.  Created a timer
+			to sleep the game when the player crashes or wins.  Added a background image, and 
+			started working on getting the files together for submission.  Created level 3.
+
+4:00  -  5:00pm: 	Dinner.  Fixed a problem with level 3, created a credits screen.
+
+
+5:00  -  6:00pm: 	Worked on the transitions between the levels and end screens some more, tried to add a credits
+			screen at the end of the game.
+        </pre>
+      </p>
+      <p>
+        <sectionheader>Downloads</sectionheader>
+        <ul>
+          <li>
+            <a href="https://github.com/WolverineSoft/museum/releases/download/dl1/scca.7z">Windows Version</a>
+          </li>
+        </ul>
+      </p>
+      <p>
+        <sectionheader>Compatibility notes.</sectionheader>
+        Confirmed working on Windows 10. This is a fixed version containing OpenAL-Soft.
+        
+      </p>
+  </div>
+  </body>
+</html>
