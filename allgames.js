@@ -126,6 +126,12 @@ const allgames =
         desc: "Guide our mysterious necromancer protagonist through the dreamlike forest!",
         type: "studio"
     },
+     "stone-curse": {
+        title: "Tower of the Stone Curse",
+        img: "stone-curse/thumbnail.jpg",
+        year: 2009,
+        desc: "2D puzzle game"
+    },
      "squatter-house": {
         title: "Squatter House",
         img: "squatter-house/thumbnail.jpg",
