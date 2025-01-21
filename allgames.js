@@ -174,6 +174,12 @@ const allgames =
         year: 2004,
         desc: "Something involving the United Nations"
     },
+      "space-out": {
+        title: "Space Out V-Stype",
+        img: "space-out/thumbnail.jpg",
+        year: 2009,
+        desc: "Space Invaders-like"
+    },
      "colbert-punchout": {
         title: "Stephen Colbert's Magical Punchout WHAT?! Adventure",
         img: "colbert-punchout/thumbnail.jpg",
