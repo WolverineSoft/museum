@@ -162,6 +162,12 @@ const allgames =
         year: 2009,
         desc: "You are a vase with a rubber bottom. Bounce to victory."
     },
+       "tango": {
+        title: "Tango",
+        img: "tango/thumbnail.jpg",
+        year: 2007,
+        desc: "TANGO TANGO TANGO The greatest, the 1337st Game Ever!"
+    },
      "squatter-house": {
         title: "Squatter House",
         img: "squatter-house/thumbnail.jpg",
