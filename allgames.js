@@ -150,6 +150,12 @@ const allgames =
         year: 2009,
         desc: "The Earth is under attack, and it's your job to defend us! A bit like Space Invaders."
     },
+       "season-switch": {
+        title: "Season Switch",
+        img: "season-switch/thumbnail.jpg",
+        year: 2007,
+        desc: "Some kind of seasonal shooter"
+    },
       "zenirocket": {
         title: "Zenirocket",
         img: "zenirocket/thumbnail.jpg",
