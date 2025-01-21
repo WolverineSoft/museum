@@ -170,7 +170,7 @@ const allgames =
     },
       "sheepherd": {
         title: "Sheep Herd",
-        img: "sheepherd/thumbnail.png",
+        img: "sheepherd/thumbnail.jpg",
         year: 2004,
         desc: "Place fences to keep sheep safe "
     },
