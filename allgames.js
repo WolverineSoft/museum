@@ -180,6 +180,12 @@ const allgames =
         year: 2004,
         desc: "Online multiplayer game about clearing away pucks"
     },
+      "running-mates": {
+        title: "Running Mates",
+        img: "running-mates/thumbnail.jpg",
+        year: 2008,
+        desc: "Help Stephen Colbert save John Stewart and become president"
+    },
     "nanocrisis": {
         title: "Nanocrisis",
         img: "nanocrisis/thumbnail.jpg",
