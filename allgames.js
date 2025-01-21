@@ -156,6 +156,12 @@ const allgames =
         year: 2005,
         desc: "Help the leaf escape the world of the void and get back to reality."
     },
+      "atlas-of-war": {
+        title: "Atlas of War",
+        img: "atlas-of-war/thumbnail.jpg",
+        year: 2004,
+        desc: "Something involving the United Nations"
+    },
      "colbert-punchout": {
         title: "Stephen Colbert's Magical Punchout WHAT?! Adventure",
         img: "colbert-punchout/thumbnail.jpg",
