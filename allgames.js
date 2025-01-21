@@ -170,7 +170,7 @@ const allgames =
     },
       "polarity-switch": {
         title: "Polarity Switch",
-        img: "polarity-switch/thumbnail.png",
+        img: "polarity-switch/thumbnail.jpg",
         year: 2007,
         desc: "SSwitch the polarity of your charge to attract or repel particles"
     },
