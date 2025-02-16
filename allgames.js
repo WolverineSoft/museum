@@ -280,7 +280,8 @@ const allgames =
         title: "Routes",
         img: "routes/thumbnail.jpg",
         year: 2023,
-        desc: "A game of merchants, towns and roads."
+        desc: "A game of merchants, towns and roads.",
+        type: "jam"
     },
        "space-pool": {
         title: "3D Space Pool",
@@ -437,7 +438,7 @@ const allgames =
         img: "projecthollow/thumbnail.jpg",
         year: 2024,
         desc: "A prototype for a roguelike created during the 2024 WolverineSoft Studio summer prototyping cycle.",
-     type: "studio"
+        type: "studio"
     },
     "lawnmaintenance": {
         title: "Lawn Maintenance",
@@ -659,6 +660,14 @@ const allgames =
         title: "Roots: The Series",
         img: "https://rootsseries.github.io/2/thumb.png",
         year: "2023-2024",
-        desc: "The entire Roots series! You aren't ready for the lore."
+        desc: "The entire Roots series! You aren't ready for the lore.",
+        type: "jam"
+    },
+    "armament":{
+        title: "Armament",
+        img: "armament/thumbnail.png",
+        year: "2017",
+        desc: "Requires controllers to play.",
+        type: "jam"
     },
 }
