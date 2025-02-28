@@ -712,4 +712,39 @@ const allgames =
         desc: "This is my entry for the Wolverine Soft Summer Jam.&nbsp; Play as Raymond and Richard Freedman, the two most infamous space pirates in the galaxy. After a successful heist from the Red Empire, they are on the run in their ship. Successfully manage the roles of both Raymond and Richard in order to survive for as long as possible. Post your high scores and times in the comments below:",
         type: "jam"
     },
+    "pumpkin-parade": {
+        title: "Pumpkin Parade",
+        img: "pumpkin-parade/thumbnail.png",
+        year: 2019,
+        desc: "",
+        type: "jam"
+    },
+    "late-to-area-51": {
+        title: "Late to Area 51",
+        img: "late-to-area-51/thumbnail.png",
+        year: 2019,
+        desc: "You arrived a day late to Area 51 raid. Will you be able to rescue the aliens that have been left behind? Play to find out! By: Seyhyun Yang Michael Tilbury Nathan Gualtieri Blake Webb Dilan Huang This game does not require any libraries or programs to be installed.",
+        type: "jam"
+    },
+    "rsvp": {
+        title: "RSVP",
+        img: "rsvp/thumbnail.png",
+        year: 2019,
+        desc: "FOR WOLVERINE SOFT PUMPKIN GAME JAM 2019 BY AUSTIN RIOPELLE",
+        type: "jam"
+    },
+    "crazy-uber": {
+        title: "Crazy Uber",
+        img: "crazy-uber/thumbnail.png",
+        year: 2019,
+        desc: "Use WASD to move your car. Pick up and drop off&nbsp; passengers to their parties as quickly as possible.",
+        type: "jam"
+    },
+    "wastedorbusted": {
+        title: "WASTEDORBUSTED",
+        img: "wastedorbusted/thumbnail.png",
+        year: 2019,
+        desc: "THIS IS MORE THAN JUST AN ORANGE JUICE.",
+        type: "jam"
+    },
 }
