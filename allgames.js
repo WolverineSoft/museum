@@ -1,6 +1,6 @@
 const allgames = 
 {
-     "https://wolverinesoft-studio.itch.io/defender-of-the-dune": {
+    "https://wolverinesoft-studio.itch.io/defender-of-the-dune": {
         title: "Defenders of the Dune",
         img: "studiothumb/dune.png",
         year: 2024,
@@ -14,14 +14,14 @@ const allgames =
         desc: "Fight your way through hordes of eldritch monsters on behalf of your corporate overlords",
         type: "studio"
     },
-     "https://store.steampowered.com/app/2880650/Soul_of_the_Forest/": {
+    "https://store.steampowered.com/app/2880650/Soul_of_the_Forest/": {
         title: "Soul of the Forest",
         img: "studiothumb/forest.png",
         year: 2024,
         desc: "Embark on a quest to unite the forest against the tyranical king in an hour long, turn based RPG epic",
         type: "studio"
     },
-     "https://store.steampowered.com/app/2687500/Tails_of_War/": {
+    "https://store.steampowered.com/app/2687500/Tails_of_War/": {
         title: "Tails of War",
         img: "studiothumb/tailsofwar.png",
         year: 2023,
@@ -35,7 +35,7 @@ const allgames =
         desc: "Will you create life from nothing, or will you be lost to the cold indifference of the galaxy.",
         type: "studio"
     },
-     "https://store.steampowered.com/app/2365570/Curse_of_the_Corsair/": {
+    "https://store.steampowered.com/app/2365570/Curse_of_the_Corsair/": {
         title: "Curse of the Corsair",
         img: "studiothumb/corsair.png",
         year: 2022,
@@ -56,7 +56,7 @@ const allgames =
         desc: "Fight with a friend in this pixel-art, cyberpunk street war.",
         type: "studio"
     },
-     "https://store.steampowered.com/app/2074700/Bloom_Roots_of_Renewal/": {
+    "https://store.steampowered.com/app/2074700/Bloom_Roots_of_Renewal/": {
         title: "Bloom: Roots of Renewal",
         img: "studiothumb/bloom2.png",
         year: 2022,
@@ -64,7 +64,7 @@ const allgames =
         type: "studio"
     },
     "https://store.steampowered.com/app/2205380/Ragnark_TD": {
-        title: "Ragnarök TD",
+        title: "Ragnar\u00f6k TD",
         img: "studiothumb/ragnarok.png",
         year: 2021,
         desc: "Call upon the power of the gods to defend our village.",
@@ -91,28 +91,28 @@ const allgames =
         desc: "A 2D top-down twin stick shooter inspired by Nuclear Throne.",
         type: "studio"
     },
-     "https://wolverinesoft-studio.itch.io/desolation-place": {
+    "https://wolverinesoft-studio.itch.io/desolation-place": {
         title: "Desolation Place",
         img: "studiothumb/desolationplace.png",
         year: 2020,
         desc: "Escape with your life if you can. Careful though, they'll hear you leaving.",
         type: "studio"
     },
-     "https://wolverinesoft-studio.itch.io/bloom-tome-of-power": {
+    "https://wolverinesoft-studio.itch.io/bloom-tome-of-power": {
         title: "Bloom: Tome of Power",
         img: "studiothumb/bloom1.png",
         year: 2020,
         desc: "Use your skills of magic and maneuverability to quell the overgrowth and free a forest and lost village of creatures!",
         type: "studio"
     },
-     "https://wolverinesoft-studio.itch.io/io": {
+    "https://wolverinesoft-studio.itch.io/io": {
         title: "Io",
         img: "studiothumb/io.png",
         year: 2020,
         desc: "Io is a single-player action platformer featuring challenging combat, with a main teleportation mechanic",
         type: "studio"
     },
-     "https://wolverinesoft-studio.itch.io/infectant": {
+    "https://wolverinesoft-studio.itch.io/infectant": {
         title: "Infectant",
         img: "studiothumb/infectant.png",
         year: 2019,
@@ -126,97 +126,97 @@ const allgames =
         desc: "Guide our mysterious necromancer protagonist through the dreamlike forest!",
         type: "studio"
     },
-       "campaign-trail": {
+    "campaign-trail": {
         title: "The Campaign Trail",
         img: "campaign-trail/thumbnail.jpg",
         year: 2008,
         desc: "You are Stephen Colbert, on the campaign trail for the presidency of the United States."
     },
-      "tek-jansen-rave": {
+    "tek-jansen-rave": {
         title: "Tek Jansen Rave",
         img: "tek-jansen-rave/thumbnail.jpg",
         year: 2008,
         desc: "Something related to Stephen Colbert."
     },
-     "stone-curse": {
+    "stone-curse": {
         title: "Tower of the Stone Curse",
         img: "stone-curse/thumbnail.jpg",
         year: 2009,
         desc: "2D puzzle game"
     },
-       "smb": {
+    "smb": {
         title: "Supermassive Black Hole",
         img: "smb/thumbnail.jpg",
         year: 2007,
         desc: "Space-themed shooter"
     },
-      "planet-bomber": {
+    "planet-bomber": {
         title: "Planet Bomber",
         img: "planet-bomber/thumbnail.jpg",
         year: 2009,
         desc: "The Earth is under attack, and it's your job to defend us! A bit like Space Invaders."
     },
-       "season-switch": {
+    "season-switch": {
         title: "Season Switch",
         img: "season-switch/thumbnail.jpg",
         year: 2007,
         desc: "Some kind of seasonal shooter"
     },
-      "zenirocket": {
+    "zenirocket": {
         title: "Zenirocket",
         img: "zenirocket/thumbnail.jpg",
         year: 2007,
         desc: "First-person rocket piloting demo"
     },
-      "vase-bounce": {
+    "vase-bounce": {
         title: "Vase Bounce",
         img: "vase-bounce/thumbnail.jpg",
         year: 2009,
         desc: "You are a vase with a rubber bottom. Bounce to victory."
     },
-       "tango": {
+    "tango": {
         title: "Tango",
         img: "tango/thumbnail.jpg",
         year: 2007,
         desc: "TANGO TANGO TANGO The greatest, the 1337st Game Ever!"
     },
-     "squatter-house": {
+    "squatter-house": {
         title: "Squatter House",
         img: "squatter-house/thumbnail.jpg",
         year: 2005,
         desc: "2-player online competitive squatting"
     },
-      "wandering-ash": {
+    "wandering-ash": {
         title: "Wandering Ash",
         img: "wandering-ash/thumbnail.jpg",
         year: 2005,
         desc: "Help the leaf escape the world of the void and get back to reality."
     },
-      "light-wrap": {
+    "light-wrap": {
         title: "Light Wrap",
         img: "light-wrap/thumbnail.jpg",
         year: 2007,
         desc: "Manuever your light around the screen avoiding collisions with the walls, other lights, or any light trails."
     },
-      "atlas-of-war": {
+    "atlas-of-war": {
         title: "Atlas of War",
         img: "atlas-of-war/thumbnail.jpg",
         year: 2004,
         desc: "Something involving the United Nations"
     },
-      "space-out": {
+    "space-out": {
         title: "Space Out V-Stype",
         img: "space-out/thumbnail.jpg",
         year: 2009,
         desc: "Space Invaders-like"
     },
-     "colbert-punchout": {
+    "colbert-punchout": {
         title: "Stephen Colbert's Magical Punchout WHAT?! Adventure",
         img: "colbert-punchout/thumbnail.jpg",
         year: 2008,
         desc: "Stephen Colbert gets into fistfights"
     },
-     "colbert-jensen": {
+    "colbert-jensen": {
         title: "Stephen Colbert's and the Real Life Tek Jensen Adventure",
         img: "colbert-jensen/thumbnail.jpg",
         year: 2008,
@@ -228,110 +228,110 @@ const allgames =
         year: 2007,
         desc: "A tile based survival game made by \"SpartaSoft\""
     },
-      "shoot": {
+    "shoot": {
         title: "Shoot",
         img: "shoot/thumbnail.jpg",
         year: 2006,
         desc: "Online Linux battle game"
     },
-      "tripleshot": {
+    "tripleshot": {
         title: "TripleShot",
         img: "tripleshot/thumbnail.jpg",
         year: 2009,
         desc: "2D top-down shooter"
     },
-     "space-ace": {
+    "space-ace": {
         title: "Space Ace",
         img: "space-ace/thumbnail.jpg",
         year: 2009,
         desc: "Kick some space ass"
     },
-     "switch-witch": {
+    "switch-witch": {
         title: "Switch Witch",
         img: "switch-witch/thumbnail.jpg",
         year: 2009,
         desc: "Multiplayer puzzle game"
     },
-       "switcheroo": {
+    "switcheroo": {
         title: "Switcheroo!",
         img: "switcheroo/thumbnail.jpg",
         year: 2009,
         desc: "Made in Matlab for some reason"
     },
-      "boom-blocks": {
+    "boom-blocks": {
         title: "Boom Blocks",
         img: "boom-blocks/thumbnail.jpg",
         year: 2009,
         desc: "Align 3 or more blocks of the color to cause them to explode and score points."
     },
-     "plumber": {
+    "plumber": {
         title: "Plumber",
         img: "plumber/thumbnail.jpg",
         year: 2009,
         desc: "Arrange pipes to form a path"
     },
-     "pulse": {
+    "pulse": {
         title: "pulse",
         img: "pulse/thumbnail.jpg",
         year: 2009,
         desc: "Guide a spark along a wire"
     },
-      "routes": {
+    "routes": {
         title: "Routes",
         img: "routes/thumbnail.jpg",
         year: 2023,
         desc: "A game of merchants, towns and roads.",
         type: "jam"
     },
-       "space-pool": {
+    "space-pool": {
         title: "3D Space Pool",
         img: "space-pool/thumbnail.jpg",
         year: 2004,
         desc: "3D pool featuring physics simulation!"
     },
-      "sleepkeeper": {
+    "sleepkeeper": {
         title: "Sleepkeeper",
         img: "sleepkeeper/thumbnail.jpg",
         year: 2005,
         desc: "Keep the dream inflated for as long as possible"
     },
-      "sandman": {
+    "sandman": {
         title: "The Sand Man defends Sand Land from the Monkey Hoard of Doom",
         img: "sandman/thumbnail.jpg",
         year: 2005,
         desc: "The title tells you all you need to know"
     },
-     "perilous-seas": {
+    "perilous-seas": {
         title: "Perilous Seas",
         img: "perilous-seas/thumbnail.png",
         year: 2007,
         desc: "Sail the seven seas. Sink your enemies."
     },
-      "sheepherd": {
+    "sheepherd": {
         title: "Sheep Herd",
         img: "sheepherd/thumbnail.jpg",
         year: 2004,
         desc: "Place fences to keep sheep safe"
     },
-      "polarity-switch": {
+    "polarity-switch": {
         title: "Polarity Switch",
         img: "polarity-switch/thumbnail.jpg",
         year: 2007,
         desc: "Switch the polarity of your charge to attract or repel particles"
     },
-       "critically-acclaimed": {
+    "critically-acclaimed": {
         title: "Stephen Colbert: Critically Acclaimed",
         img: "critically-acclaimed/thumbnail.jpg",
         year: 2008,
         desc: "Click the mouse to send shock waves to push trophies through a maze of bears"
     },
-     "puckoff": {
+    "puckoff": {
         title: "Puck Off",
         img: "puckoff/thumbnail.jpg",
         year: 2004,
         desc: "Online multiplayer game about clearing away pucks"
     },
-      "running-mates": {
+    "running-mates": {
         title: "Running Mates",
         img: "running-mates/thumbnail.jpg",
         year: 2008,
@@ -343,37 +343,37 @@ const allgames =
         year: 2003,
         desc: "A 3D Role-playing game"
     },
-     "blobby-waters": {
+    "blobby-waters": {
         title: "Blobby Waters",
         img: "blobby-waters/thumbnail.jpg",
         year: 2004,
         desc: "Blow the blobbies to the stars. Featuring 2D fluid simulation!"
     },
-      "block-commandos": {
+    "block-commandos": {
         title: "Block Commandos",
         img: "block-commandos/thumbnail.PNG",
         year: 2006,
         desc: "The ultimate battle between Orange and Blue."
     },
-      "playplace": {
+    "playplace": {
         title: "Play Place",
         img: "playplace/thumbnail.jpg",
         year: 2005,
         desc: "A multiplayer battle game where you must get to the gate avoiding the balls before the other players."
     },
-      "red-reflex": {
+    "red-reflex": {
         title: "Red Reflex",
         img: "red-reflex/thumbnail.jpg",
         year: 2004,
         desc: "Two-player fighting game"
     },
-        "colbert-con": {
+    "colbert-con": {
         title: "Colbert Conquest",
         img: "colbert-con/thumbnail.jpg",
         year: 2008,
         desc: "Are you a bad enough dude to get Colbert to the top?"
     },
-      "cerebral-conquest": {
+    "cerebral-conquest": {
         title: "Cerebral Conquest",
         img: "cerebral-conquest/thumbnail.png",
         year: 2009,
@@ -385,25 +385,25 @@ const allgames =
         year: 2007,
         desc: "Help a giant squid flee its scientist captors."
     },
-     "battle-of-wits": {
+    "battle-of-wits": {
         title: "Stephen Colbert's Battle of Wits",
         img: "battle-of-wits/thumbnail.jpg",
         year: 2008,
         desc: "Inteview candidates as Stephen Colbert"
     },
-     "particle-attack": {
+    "particle-attack": {
         title: "Particle Attack",
         img: "particle-attack/thumbnail.jpg",
         year: 2009,
         desc: "Use the arrow keys maneuver your ship to activate each P-switch while avoiding the particles!"
     },
-      "colbear": {
+    "colbear": {
         title: "Colbert Crisis",
         img: "colbear/thumbnail.png",
         year: 2008,
         desc: "Destroy the bears that were once human."
     },
-      "better-know-a-district": {
+    "better-know-a-district": {
         title: "Better Know a District",
         img: "better-know-a-district/thumbnail.jpg",
         year: 2008,
@@ -656,18 +656,60 @@ const allgames =
         year: 2006,
         desc: "Explore a maze and collect pickups. Made with ZeniLib."
     },
-    "https://rootsseries.github.io/":{
+    "https://rootsseries.github.io/": {
         title: "Roots: The Series",
         img: "https://rootsseries.github.io/2/thumb.png",
         year: "2023-2024",
         desc: "The entire Roots series! You aren't ready for the lore.",
         type: "jam"
     },
-    "armament":{
+    "armament": {
         title: "Armament",
         img: "armament/thumbnail.png",
         year: "2017",
         desc: "Requires controllers to play.",
+        type: "jam"
+    },
+    "revenge-relocate": {
+        title: "Revenge & Relocate",
+        img: "",
+        year: 2019,
+        desc: "",
+        type: "jam"
+    },
+    "rhythm-heav-reborn2": {
+        title: "Rhythm Heav&: ReBorn",
+        img: "rhythm-heav-reborn2/thumbnail.png",
+        year: 2019,
+        desc: "Rhythm based game similar to guitar hero which uses the whole keyboard.",
+        type: "jam"
+    },
+    "revenge-reform": {
+        title: "Revenge & Reform",
+        img: "revenge-reform/thumbnail.png",
+        year: 2019,
+        desc: "Revenge and Reform is a multi character platformer in which you take on various forms of Wolvey the Wolverine to take out baddies.&nbsp; Use the ever adorable Smolvey&#x27;s roll ability to move past spikes! Or Spellvey&#x27;s handy projectile attacks to keep enemies at bay! Find keys scattered about the levels to unlock mysterious doors!",
+        type: "jam"
+    },
+    "revive-and-reset": {
+        title: "Revive and Reset",
+        img: "revive-and-reset/thumbnail.png",
+        year: 2019,
+        desc: "WASD to move and jump, E to attack and interact, Q to cancel current hacks, and the upgrade lets you hold against a wall to charge up a jump that is released by tapping the opposite direction. Also everything looks like old man dude sorry bout that. Requires love2d to be installed.",
+        type: "jam"
+    },
+    "space-station-13-virtual-reality-auto-chess": {
+        title: "Space Station 13 Virtual Reality Auto Chess",
+        img: "space-station-13-virtual-reality-auto-chess/thumbnail.png",
+        year: 2019,
+        desc: "A game idea that started out as a meme, and turned into something actually playable (but still a meme). Space Station 13 Virtual Reality Automatic Chess (or SS13VRAC for &quot;short&quot;) is a full auto chess game mode built from scratch over the course of the Wolverine Soft 2019 7 Day Summer Game Jam. If you can find a friend, VR, and a stable internet connection you&#x27;ll be able to experience Space Station 13 and Auto Chess like you never have before. Credits for sound resources used in the game can be found here.",
+        type: "jam"
+    },
+    "raymond-and-richard": {
+        title: "Raymond and Richard",
+        img: "",
+        year: 2019,
+        desc: "This is my entry for the Wolverine Soft Summer Jam.&nbsp; Play as Raymond and Richard Freedman, the two most infamous space pirates in the galaxy. After a successful heist from the Red Empire, they are on the run in their ship. Successfully manage the roles of both Raymond and Richard in order to survive for as long as possible. Post your high scores and times in the comments below:",
         type: "jam"
     },
 }
