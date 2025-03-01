@@ -747,4 +747,102 @@ const allgames =
         desc: "THIS IS MORE THAN JUST AN ORANGE JUICE.",
         type: "jam"
     },
+    "fish-simulator": {
+        title: "Fish Simulator",
+        img: "fish-simulator/thumbnail.png",
+        year: 2019,
+        desc: "This is a game that simulates being a fish in an ocean. It is quite simplistic and was made in Scratch in an hour, so don&#x27;t set you expectations too high. Upload it to scratch or play online, https://scratch.mit.edu/projects/347751401",
+        type: "jam"
+    },
+    "snowball-effect": {
+        title: "Snowball effect",
+        img: "",
+        year: 2019,
+        desc: "",
+        type: "jam"
+    },
+    "adamrpg": {
+        title: "AdamRPG",
+        img: "",
+        year: 2019,
+        desc: "",
+        type: "jam"
+    },
+    "flay-the-fire": {
+        title: "Flay the Fire",
+        img: "flay-the-fire/thumbnail.png",
+        year: 2019,
+        desc: "Collect cards and expand your collection&nbsp;&nbsp; as you defeat bad guys. by Nikhil Ghosh and Amber Renton",
+        type: "jam"
+    },
+    "starship-slime": {
+        title: "Starship Slime",
+        img: "starship-slime/thumbnail.png",
+        year: 2019,
+        desc: "A simple game made in Pico-8 for WolverineSoft&#x27;s 2019 Pumpkin Jam Game Theme:&nbsp; Start Small File is a zip file containing application builds for Windows and Linux",
+        type: "jam"
+    },
+    "scamcoin-trader": {
+        title: "ScamCoin Trader",
+        img: "scamcoin-trader/thumbnail.png",
+        year: 2019,
+        desc: "Trade scamcoin to turn a profit on a $10 investment.",
+        type: "jam"
+    },
+    "oneminodyssey": {
+        title: "One-Minute Odyssey",
+        img: "",
+        year: 2019,
+        desc: "A game by David Sohn for WolverineSoft&#x27;s 2019 Turkey Jam. Fight your way through this RPG adventure to the sound of the beat, all in one minute!",
+        type: "jam"
+    },
+    "the-black-friday-experience": {
+        title: "The Black Friday Experience",
+        img: "the-black-friday-experience/thumbnail.png",
+        year: 2019,
+        desc: "Team: Blake Webb Requires controller/gamepad Assets not created by me:&nbsp; Slap sound, Player damage sound, heart sprite, and the font.&nbsp;",
+        type: "jam"
+    },
+    "decay": {
+        title: "Decay",
+        img: "decay/thumbnail.png",
+        year: 2019,
+        desc: "Play as an element and dodge the alpha particles for as long as you can. Don&#x27;t become radioactive! The attached zip contains the windows build of the game.",
+        type: "jam"
+    },
+    "cyber-souls": {
+        title: "CYBER SOULS",
+        img: "cyber-souls/thumbnail.png",
+        year: 2019,
+        desc: "",
+        type: "jam"
+    },
+    "ballon": {
+        title: "Ballon",
+        img: "ballon/thumbnail.png",
+        year: 2019,
+        desc: "You play as a little ballon and try to higher up! Audio Credits: Zapsplat &amp; PlayOnLoop.com (Licensed under Creative Commons by Attribution 4.0)",
+        type: "jam"
+    },
+    "rgb": {
+        title: "\ud83d\udfe5\ud83d\udfe9\ud83d\udfe6",
+        img: "rgb/thumbnail.png",
+        year: 2019,
+        desc: "\u00f0\u009f\u009f\u00a5\u00f0\u009f\u0094\u00b4\u00f0\u009f\u0094\u00b4\u00f0\u009f\u009f\u00a5\u00f0\u009f\u009f\u00a5\u00f0\u009f\u0094\u00b4 \u00f0\u009f\u009f\u00a9\u00f0\u009f\u009f\u00a9\u00f0\u009f\u009f\u00a2\u00f0\u009f\u009f\u00a2\u00f0\u009f\u009f\u00a9\u00f0\u009f\u009f\u00a2 \u00f0\u009f\u009f\u00a6\u00f0\u009f\u0094\u00b5\u00f0\u009f\u009f\u00a6\u00f0\u009f\u009f\u00a6\u00f0\u009f\u0094\u00b5\u00f0\u009f\u0094\u00b5",
+        type: "jam"
+    },
+    "sea-you-eat": {
+        title: "sea you eat",
+        img: "",
+        year: 2019,
+        desc: "Credit: Suond effect: https://freesound.org/people/GameAudio/sounds/220202/ All BGMs - \u00e7\u0094\u0098\u00e8\u008c\u00b6\u00e3\u0081\u00ae\u00e9\u009f\u00b3\u00e6\u00a5\u00bd\u00e5\u00b7\u00a5\u00e6\u0088\u00bf amachamusic.chagasi.com UI: https://assetstore.unity.com/packages/2d/fonts/free-pixel-font-thaleah-140059 https://assetstore.unity.com/packages/2d/gui/icons/fantasy-free-gui-147682 Sprite from: spriters-resource.com -",
+        type: "jam"
+    },
+    "grief": {
+        title: "Grief",
+        img: "grief/thumbnail.png",
+        year: 2019,
+        desc: "Version 0.1 Created in 48 hours",
+        type: "jam"
+    },
 }
