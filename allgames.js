@@ -845,4 +845,53 @@ const allgames =
         desc: "Version 0.1 Created in 48 hours",
         type: "jam"
     },
+    "back-2-back": {
+        title: "Back 2 Back",
+        img: "back-2-back/thumbnail.png",
+        year: 2020,
+        desc: "Follow these two buddies as they defend themselves against spikes and lasers. But there&#x27;s a twist\u00e2\u0080\u0093you must control both players at the same time as they stand back-to-back. Control both players and shoot spikes of the same color. Plan your next moves quickly, yet carefully.",
+        type: "jam"
+    },
+    "short-platformer": {
+        title: "Short Platformer",
+        img: "",
+        year: 2020,
+        desc: "A platformer I made for the 2020 shammy game jam hosted by WolverineSoft Studios. It's very short but likely waaaay too hard because I'm the only one who ever playtested it. Some parts will have lower visibility than I would have liked given that I gave up trying to set the dimensions in favor of submitting in time",
+        type: "jam"
+    },
+    "and-then-there-were-two": {
+        title: "...And Then There Were Two",
+        img: "and-then-there-were-two/thumbnail.png",
+        year: 2020,
+        desc: "This game is a two player game using ps4 controllers. There will be two role, attacker and defender, which will be assigned randomly 10 seconds after the game started. The attacker's purpose is to catch the defender. And the defender needs to try as hard as he can to avoid the attacker. The game ends when one of the situations happens: one player jumps out of the map, the defender gets caught, or the 30 second time limit has passed.",
+        type: "jam"
+    },
+    "two-boxes": {
+        title: "Two Boxes",
+        img: "",
+        year: 2020,
+        desc: "",
+        type: "jam"
+    },
+    "awake-and-away": {
+        title: "Awake & Away",
+        img: "awake-and-away/thumbnail.png",
+        year: 2020,
+        desc: "Conquer your dreams. Created in 48 hours. Follow me on twitter: @musahaydar_",
+        type: "jam"
+    },
+    "saving-grace": {
+        title: "Saving Grace",
+        img: "saving-grace/thumbnail.png",
+        year: 2020,
+        desc: "All UofM students have been quarantined! Play as Sawyer from Michigan Tech as he travels to Ann Arbor to save Grace from quarantine. Explore and battle your way down the state of Michigan. Unzip the folder and run the executable. Used mouse and keyboard. WASD to move, mouse to interact, Shift to sprint.",
+        type: "jam"
+    },
+    "whenyoureforcedtopivotfrommultiplayerintosomethingelsesothisiswhatyouhavetoresor": {
+        title: "Whenyoureforcedtopivotfrommultiplayerintosomethingelsesothisiswhatyouhavetoresortto",
+        img: "",
+        year: 2020,
+        desc: "Press a,d,left,right to control hands, R to restart game",
+        type: "jam"
+    }
 }
