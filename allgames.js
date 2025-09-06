@@ -854,7 +854,7 @@ const allgames =
     },
     "short-platformer": {
         title: "Short Platformer",
-        img: "",
+        img: "short-platformer/thumbnail.png",
         year: 2020,
         desc: "As the title says, it's a short platformer",
         type: "jam"
