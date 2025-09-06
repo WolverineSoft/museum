@@ -688,28 +688,28 @@ const allgames =
         title: "Revenge & Reform",
         img: "revenge-reform/thumbnail.png",
         year: 2019,
-        desc: "Revenge and Reform is a multi character platformer in which you take on various forms of Wolvey the Wolverine to take out baddies.&nbsp; Use the ever adorable Smolvey&#x27;s roll ability to move past spikes! Or Spellvey&#x27;s handy projectile attacks to keep enemies at bay! Find keys scattered about the levels to unlock mysterious doors!",
+        desc: "A multi character platformer in which you take on various forms of Wolvey the Wolverine to take out baddies",
         type: "jam"
     },
     "revive-and-reset": {
         title: "Revive and Reset",
         img: "revive-and-reset/thumbnail.png",
         year: 2019,
-        desc: "WASD to move and jump, E to attack and interact, Q to cancel current hacks, and the upgrade lets you hold against a wall to charge up a jump that is released by tapping the opposite direction. Also everything looks like old man dude sorry bout that. Requires love2d to be installed.",
+        desc: "TODO",
         type: "jam"
     },
     "space-station-13-virtual-reality-auto-chess": {
         title: "Space Station 13 Virtual Reality Auto Chess",
         img: "space-station-13-virtual-reality-auto-chess/thumbnail.png",
         year: 2019,
-        desc: "A game idea that started out as a meme, and turned into something actually playable (but still a meme). Space Station 13 Virtual Reality Automatic Chess (or SS13VRAC for &quot;short&quot;) is a full auto chess game mode built from scratch over the course of the Wolverine Soft 2019 7 Day Summer Game Jam. If you can find a friend, VR, and a stable internet connection you&#x27;ll be able to experience Space Station 13 and Auto Chess like you never have before. Credits for sound resources used in the game can be found here.",
+        desc: "A full auto chess game mode built from scratch",
         type: "jam"
     },
     "raymond-and-richard": {
         title: "Raymond and Richard",
         img: "",
         year: 2019,
-        desc: "This is my entry for the Wolverine Soft Summer Jam.&nbsp; Play as Raymond and Richard Freedman, the two most infamous space pirates in the galaxy. After a successful heist from the Red Empire, they are on the run in their ship. Successfully manage the roles of both Raymond and Richard in order to survive for as long as possible. Post your high scores and times in the comments below:",
+        desc: "Play as Raymond and Richard Freedman, the two most infamous space pirates in the galaxy. Survive as long as possible.",
         type: "jam"
     },
     "pumpkin-parade": {
@@ -723,7 +723,7 @@ const allgames =
         title: "Late to Area 51",
         img: "late-to-area-51/thumbnail.png",
         year: 2019,
-        desc: "You arrived a day late to Area 51 raid. Will you be able to rescue the aliens that have been left behind? Play to find out! By: Seyhyun Yang Michael Tilbury Nathan Gualtieri Blake Webb Dilan Huang This game does not require any libraries or programs to be installed.",
+        desc: "You arrived a day late to Area 51 raid. Will you be able to rescue the aliens that have been left behind?",
         type: "jam"
     },
     "rsvp": {
@@ -751,7 +751,7 @@ const allgames =
         title: "Fish Simulator",
         img: "fish-simulator/thumbnail.png",
         year: 2019,
-        desc: "This is a game that simulates being a fish in an ocean. It is quite simplistic and was made in Scratch in an hour, so don&#x27;t set you expectations too high. Upload it to scratch or play online, https://scratch.mit.edu/projects/347751401",
+        desc: "This is a game that simulates being a fish in an ocean, made in Scratch",
         type: "jam"
     },
     "snowball-effect": {
@@ -772,14 +772,14 @@ const allgames =
         title: "Flay the Fire",
         img: "flay-the-fire/thumbnail.png",
         year: 2019,
-        desc: "Collect cards and expand your collection&nbsp;&nbsp; as you defeat bad guys. by Nikhil Ghosh and Amber Renton",
+        desc: "Collect cards and expand your collection as you defeat bad guys.",
         type: "jam"
     },
     "starship-slime": {
         title: "Starship Slime",
         img: "starship-slime/thumbnail.png",
         year: 2019,
-        desc: "A simple game made in Pico-8 for WolverineSoft&#x27;s 2019 Pumpkin Jam Game Theme:&nbsp; Start Small File is a zip file containing application builds for Windows and Linux",
+        desc: "TODO",
         type: "jam"
     },
     "scamcoin-trader": {
@@ -793,21 +793,21 @@ const allgames =
         title: "One-Minute Odyssey",
         img: "",
         year: 2019,
-        desc: "A game by David Sohn for WolverineSoft&#x27;s 2019 Turkey Jam. Fight your way through this RPG adventure to the sound of the beat, all in one minute!",
+        desc: "Fight your way through this RPG adventure to the sound of the beat, all in one minute!",
         type: "jam"
     },
     "the-black-friday-experience": {
         title: "The Black Friday Experience",
         img: "the-black-friday-experience/thumbnail.png",
         year: 2019,
-        desc: "Team: Blake Webb Requires controller/gamepad Assets not created by me:&nbsp; Slap sound, Player damage sound, heart sprite, and the font.&nbsp;",
+        desc: "TODO",
         type: "jam"
     },
     "decay": {
         title: "Decay",
         img: "decay/thumbnail.png",
         year: 2019,
-        desc: "Play as an element and dodge the alpha particles for as long as you can. Don&#x27;t become radioactive! The attached zip contains the windows build of the game.",
+        desc: "Play as an element and dodge the alpha particles for as long as you can. Don't become radioactive!",
         type: "jam"
     },
     "cyber-souls": {
@@ -821,21 +821,21 @@ const allgames =
         title: "Ballon",
         img: "ballon/thumbnail.png",
         year: 2019,
-        desc: "You play as a little ballon and try to higher up! Audio Credits: Zapsplat &amp; PlayOnLoop.com (Licensed under Creative Commons by Attribution 4.0)",
+        desc: "You play as a little ballon and try to higher up!",
         type: "jam"
     },
     "rgb": {
         title: "\ud83d\udfe5\ud83d\udfe9\ud83d\udfe6",
         img: "rgb/thumbnail.png",
         year: 2019,
-        desc: "\u00f0\u009f\u009f\u00a5\u00f0\u009f\u0094\u00b4\u00f0\u009f\u0094\u00b4\u00f0\u009f\u009f\u00a5\u00f0\u009f\u009f\u00a5\u00f0\u009f\u0094\u00b4 \u00f0\u009f\u009f\u00a9\u00f0\u009f\u009f\u00a9\u00f0\u009f\u009f\u00a2\u00f0\u009f\u009f\u00a2\u00f0\u009f\u009f\u00a9\u00f0\u009f\u009f\u00a2 \u00f0\u009f\u009f\u00a6\u00f0\u009f\u0094\u00b5\u00f0\u009f\u009f\u00a6\u00f0\u009f\u009f\u00a6\u00f0\u009f\u0094\u00b5\u00f0\u009f\u0094\u00b5",
+        desc: "TODO",
         type: "jam"
     },
     "sea-you-eat": {
         title: "sea you eat",
         img: "",
         year: 2019,
-        desc: "Credit: Suond effect: https://freesound.org/people/GameAudio/sounds/220202/ All BGMs - \u00e7\u0094\u0098\u00e8\u008c\u00b6\u00e3\u0081\u00ae\u00e9\u009f\u00b3\u00e6\u00a5\u00bd\u00e5\u00b7\u00a5\u00e6\u0088\u00bf amachamusic.chagasi.com UI: https://assetstore.unity.com/packages/2d/fonts/free-pixel-font-thaleah-140059 https://assetstore.unity.com/packages/2d/gui/icons/fantasy-free-gui-147682 Sprite from: spriters-resource.com -",
+        desc: "TODO",
         type: "jam"
     },
     "grief": {
@@ -849,21 +849,21 @@ const allgames =
         title: "Back 2 Back",
         img: "back-2-back/thumbnail.png",
         year: 2020,
-        desc: "Follow these two buddies as they defend themselves against spikes and lasers. But there&#x27;s a twist\u00e2\u0080\u0093you must control both players at the same time as they stand back-to-back. Control both players and shoot spikes of the same color. Plan your next moves quickly, yet carefully.",
+        desc: "Follow these two buddies as they defend themselves against spikes and lasers. But there's a twist: you must control both players at the same time as they stand back-to-back.",
         type: "jam"
     },
     "short-platformer": {
         title: "Short Platformer",
         img: "",
         year: 2020,
-        desc: "A platformer I made for the 2020 shammy game jam hosted by WolverineSoft Studios. It's very short but likely waaaay too hard because I'm the only one who ever playtested it. Some parts will have lower visibility than I would have liked given that I gave up trying to set the dimensions in favor of submitting in time",
+        desc: "As the title says, it's a short platformer",
         type: "jam"
     },
     "and-then-there-were-two": {
         title: "...And Then There Were Two",
         img: "and-then-there-were-two/thumbnail.png",
         year: 2020,
-        desc: "This game is a two player game using ps4 controllers. There will be two role, attacker and defender, which will be assigned randomly 10 seconds after the game started. The attacker's purpose is to catch the defender. And the defender needs to try as hard as he can to avoid the attacker. The game ends when one of the situations happens: one player jumps out of the map, the defender gets caught, or the 30 second time limit has passed.",
+        desc: "An attacker and a defender face off in this two-player battle game.",
         type: "jam"
     },
     "two-boxes": {
@@ -884,7 +884,7 @@ const allgames =
         title: "Saving Grace",
         img: "saving-grace/thumbnail.png",
         year: 2020,
-        desc: "All UofM students have been quarantined! Play as Sawyer from Michigan Tech as he travels to Ann Arbor to save Grace from quarantine. Explore and battle your way down the state of Michigan. Unzip the folder and run the executable. Used mouse and keyboard. WASD to move, mouse to interact, Shift to sprint.",
+        desc: "All UofM students have been quarantined! Play as Sawyer from Michigan Tech as he travels to Ann Arbor to save Grace from quarantine.",
         type: "jam"
     },
     "whenyoureforcedtopivotfrommultiplayerintosomethingelsesothisiswhatyouhavetoresor": {
