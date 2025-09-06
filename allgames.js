@@ -763,7 +763,7 @@ const allgames =
     },
     "adamrpg": {
         title: "AdamRPG",
-        img: "",
+        img: "adamrpg/thumbnail.jpg",
         year: 2019,
         desc: "",
         type: "jam"
