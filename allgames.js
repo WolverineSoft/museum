@@ -868,7 +868,7 @@ const allgames =
     },
     "two-boxes": {
         title: "Two Boxes",
-        img: "",
+        img: "two-boxes/thumbnail.png",
         year: 2020,
         desc: "",
         type: "jam"
