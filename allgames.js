@@ -889,9 +889,9 @@ const allgames =
     },
     "whenyoureforcedtopivotfrommultiplayerintosomethingelsesothisiswhatyouhavetoresor": {
         title: "When you're forced to pivot from multiplayer into something else so this is what you have to resort to",
-        img: "",
+        img: "whenyoureforcedtopivotfrommultiplayerintosomethingelsesothisiswhatyouhavetoresor/thumbnail.png",
         year: 2020,
-        desc: "Press a,d,left,right to control hands, R to restart game",
+        desc: "Grab the falling green balls",
         type: "jam"
     }
 }
